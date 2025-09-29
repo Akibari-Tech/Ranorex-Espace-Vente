@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="22.82s"
+		durationms="22822"
+		type="root"
+		rid="9c24b0e9ec82950"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Doutat"
+		rxversion="9.3.2.0"
+		host="DESKTOP-Q382A2M"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="fr-FR"
+		dtnlanguage="fr-FR"
+		screenresolution="1440x900"
+		timestamp="22/09/2025 13:59:36"
+		timestampiso="2025-09-22T12:59:36"
+		endtime="22/09/2025 13:59:59"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="createNDC">
+		<detail>
+			createNDC
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.061"
+			timeRelativeToTestModuleStartTime="00:14.061"
+			timeWallClock="13:59:50"
+			time="00:14.061"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>nomClient2, nomVoyageur, ticketingAgent2, cash2, id, ndcContent, reportingIndicator, typeDocument2
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.154"
+			timeRelativeToTestModuleStartTime="00:14.154"
+			timeWallClock="13:59:50"
+			time="00:14.154"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Billet K5 1 enregistré  avec succès.') on item 'textInfo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='BoraMessageBox']/?/?/text[@accessiblename>'Billet K5 1 enregistré  avec']"
+				itempath="?/?/text[@accessiblename>'Billet K5 1 enregistré  avec']"
+				fullname="BoraTestEspaceVenteDDTRepository.BoraMessageBox.BilletK51EnregistreAvecSucces"
+				id="57d8aad0a0cc42339ce2fef6e0e110ff"
+				timeout="60000"
+				codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createNDC.UserCode.cs"
+				codeline="64"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.572"
+			timeRelativeToTestModuleStartTime="00:17.572"
+			timeWallClock="13:59:53"
+			time="00:17.572"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'BoraTestEspaceVenteDDTRepository.BoraMessageBox.BilletK51EnregistreAvecSucces' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='BoraMessageBox']/?/?/text[@accessiblename>'Billet K5 1 enregistré  avec']"
+				itempath="?/?/text[@accessiblename>'Billet K5 1 enregistré  avec']"
+				fullname="BoraTestEspaceVenteDDTRepository.BoraMessageBox.BilletK51EnregistreAvecSucces"
+				id="57d8aad0a0cc42339ce2fef6e0e110ff"
+				timeout="60000"
+				codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createNDC.UserCode.cs"
+				codeline="65"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

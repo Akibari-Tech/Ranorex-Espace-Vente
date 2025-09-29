@@ -1,0 +1,1197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="4.1m"
+		durationms="245731"
+		type="root"
+		rid="1752c67733f11d4"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Doutat"
+		rxversion="9.3.2.0"
+		host="DESKTOP-Q382A2M"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="fr-FR"
+		dtnlanguage="fr-FR"
+		screenresolution="1440x900"
+		timestamp="25/08/2025 12:19:37"
+		timestampiso="2025-08-25T11:19:37"
+		endtime="25/08/2025 12:23:43"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="4m"
+			durationms="237300"
+			type="test-suite"
+			rid="4a593556bdd1e33"
+			totalerrorcount="1"
+			totalwarningcount="2"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="BoraTestEspaceVenteDDT"
+			headertext="BoraTestEspaceVenteDDT"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+				<param
+					name="AppProcessID">
+				</param>
+			</params>
+			<activity
+				result="Failed"
+				duration="4m"
+				durationms="237026"
+				type="test-case"
+				rid="c21c009c7e7bf12"
+				totalerrorcount="1"
+				totalwarningcount="2"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="2"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="Création"
+				testcontainerid="539094c1-f344-47df-8639-ad891d1d6d6e"
+				headertext="Création"
+				displayName="Création"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="7.8s"
+					durationms="7798"
+					type="test-module"
+					rid="126c5636af84907b"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="startEspaceVente"
+					displayName="startEspaceVente"
+					moduleid="48eb96ad-d971-4b75-86a8-605955ae271b"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.413"
+						timeRelativeToTestModuleStartTime="00:00.060"
+						timeWallClock="12:19:46"
+						time="00:00.413"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FrmMDI.EspaceVente' at 35;15.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='Frm_MDI']//toolbar[@controlname='ToolStrip1']/button[@accessiblename='Espace Vente']"
+							itempath=".//toolbar[@controlname='ToolStrip1']/button[@accessiblename='Espace Vente']"
+							fullname="BoraTestEspaceVenteDDTRepository.FrmMDI.EspaceVente"
+							id="69b6051293454db6b5fb5986969b1b62"
+							timeout="60000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\startEspaceVente.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="6.66s"
+					durationms="6659"
+					type="test-module"
+					rid="16965d38df53dc78"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="createBooking"
+					displayName="createBooking"
+					moduleid="a7862f39-4d48-401a-a6c9-69c6a2c1e1a4"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.304"
+						timeRelativeToTestModuleStartTime="00:00.027"
+						timeWallClock="12:19:54"
+						time="00:08.304"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FrmMDI.NouveauBooking' at 87;12.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='Frm_MDI']//toolbar[@controlname='tstrip_Top']/button[@accessiblename='Nouveau Booking']"
+							itempath=".//toolbar[@controlname='tstrip_Top']/button[@accessiblename='Nouveau Booking']"
+							fullname="BoraTestEspaceVenteDDTRepository.FrmMDI.NouveauBooking"
+							id="420a599c8bf84a0cbf84c973fcba5cac"
+							timeout="60000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createBooking.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Failed"
+					duration="3.7m"
+					durationms="221628"
+					type="test-module"
+					rid="1be60c6593898e72"
+					totalerrorcount="1"
+					totalwarningcount="2"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="createInfosGenerales"
+					displayName="createInfosGenerales"
+					moduleid="90eb3f3d-f9f4-43fc-9dc1-7453cb79a23d"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Failed to find item 'BoraTestEspaceVenteDDTRepository.Bora.Cell'. Please check that your whitelist allows Ranorex to access the process.
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.822"
+						timeRelativeToTestModuleStartTime="00:00.168"
+						timeWallClock="12:20:01"
+						time="00:15.822"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.Open' at 7;10.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='Frm_SglBooking']/element[@controlname='UltraTabControl2']/container[@controlname='UltraTabPageControl1']/?/?/element[@controlname='Cbx_Transaction_PointDeVente_']//button[@accessiblename='Open']"
+							itempath="?/?/element[@controlname='Cbx_Transaction_PointDeVente_']//button[@accessiblename='Open']"
+							fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.UltraTabPageControl1.Open"
+							id="292a2b77505248d69d391e50e541f719"
+							timeout="90000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.836"
+						timeRelativeToTestModuleStartTime="00:05.183"
+						timeWallClock="12:20:06"
+						time="00:20.836"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Bora.ScrollingRegion' at 173;8.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='']//container[@accessiblename='Data Area']/container[@accessiblename='Scrolling Region']"
+							itempath=".//container[@accessiblename='Data Area']/container[@accessiblename='Scrolling Region']"
+							fullname="BoraTestEspaceVenteDDTRepository.Bora.ScrollingRegion"
+							id="049ca9443305451b90247de96c07ddad"
+							timeout="60000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:21.526"
+						timeRelativeToTestModuleStartTime="00:05.873"
+						timeWallClock="12:20:07"
+						time="00:21.526"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.Open1' at 6;8.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='Frm_SglBooking']/element[@controlname='UltraTabControl2']/container[@controlname='UltraTabPageControl1']/?/?/element[@controlname='Cbx_Transaction_Mode']//button[@accessiblename='Open']"
+							itempath="?/?/element[@controlname='Cbx_Transaction_Mode']//button[@accessiblename='Open']"
+							fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.UltraTabPageControl1.Open1"
+							id="ae60657cedcb43baa8043ef794f27a52"
+							timeout="90000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:23.777"
+						timeRelativeToTestModuleStartTime="00:08.124"
+						timeWallClock="12:20:09"
+						time="00:23.777"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Bora.DISTRIBUTION' at 89;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='']/?/?/list[@accessiblerole='List']/listitem[@accessiblename='DISTRIBUTION']"
+							itempath="?/?/list[@accessiblerole='List']/listitem[@accessiblename='DISTRIBUTION']"
+							fullname="BoraTestEspaceVenteDDTRepository.Bora.DISTRIBUTION"
+							id="9e21f1eb146843dc9b921efd168aeb81"
+							timeout="60000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:24.755"
+						timeRelativeToTestModuleStartTime="00:09.102"
+						timeWallClock="12:20:10"
+						time="00:24.755"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.Open2' at 7;8.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='Frm_SglBooking']/element[@controlname='UltraTabControl2']/container[@controlname='UltraTabPageControl1']/?/?/element[@controlname='Cbx_Transaction_Type_']//button[@accessiblename='Open']"
+							itempath="?/?/element[@controlname='Cbx_Transaction_Type_']//button[@accessiblename='Open']"
+							fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.UltraTabPageControl1.Open2"
+							id="906bd7a977ae4305a91acae68fc2a199"
+							timeout="90000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="98"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:27.375"
+						timeRelativeToTestModuleStartTime="00:11.722"
+						timeWallClock="12:20:13"
+						time="00:27.375"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Bora.VENTE' at 55;8.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='']/?/?/list[@accessiblerole='List']/listitem[@accessiblename='VENTE']"
+							itempath="?/?/list[@accessiblerole='List']/listitem[@accessiblename='VENTE']"
+							fullname="BoraTestEspaceVenteDDTRepository.Bora.VENTE"
+							id="a814438b611d404aa9142bbf8529bbdf"
+							timeout="60000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="102"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:29.009"
+						timeRelativeToTestModuleStartTime="00:13.356"
+						timeWallClock="12:20:15"
+						time="00:29.009"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.ButtonDropDown' at 18;9.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='Frm_SglBooking']/element[@controlname='UltraTabControl2']/container[@controlname='UltraTabPageControl1']/?/?/element[@controlname='UDtEd_Transaction_Date']/?/?/combobox/button[1]"
+							itempath="?/?/element[@controlname='UDtEd_Transaction_Date']/?/?/combobox/button[1]"
+							fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.UltraTabPageControl1.ButtonDropDown"
+							id="edc4becf458846d19afd2378dcc40e18"
+							timeout="90000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="106"
+							itemindex="6"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:31.570"
+						timeRelativeToTestModuleStartTime="00:15.917"
+						timeWallClock="12:20:17"
+						time="00:31.570"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Bora.Open' at 6;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='']/?/?/element[@controlname='UltraDateTimeEditor3']/?/?/combobox[@accessiblerole='ComboBox']/button[@accessiblename='Open']"
+							itempath="?/?/element[@controlname='UltraDateTimeEditor3']/?/?/combobox[@accessiblerole='ComboBox']/button[@accessiblename='Open']"
+							fullname="BoraTestEspaceVenteDDTRepository.Bora.Open"
+							id="4962f88a49e84a2ca5db10404f0bc4b8"
+							timeout="60000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="110"
+							itemindex="7"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:33.188"
+						timeRelativeToTestModuleStartTime="00:17.535"
+						timeWallClock="12:20:19"
+						time="00:33.188"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Bora.MonthDropDownWithUIPermissions' at 89;145.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='']/datetime[@controltypename='MonthDropDownWithUIPermissions']"
+							itempath="datetime[@controltypename='MonthDropDownWithUIPermissions']"
+							fullname="BoraTestEspaceVenteDDTRepository.Bora.MonthDropDownWithUIPermissions"
+							id="d6c02a980da5406fa6dfaceb6d332ca8"
+							timeout="60000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="114"
+							itemindex="8"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:03.441"
+						timeRelativeToTestModuleStartTime="00:47.788"
+						timeWallClock="12:20:49"
+						time="01:03.441"
+						level="Warn"
+						category="Repository">
+						<message>
+							Item 'BoraTestEspaceVenteDDTRepository.Bora.MonthDropDownWithUIPermissions' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'BoraTestEspaceVenteDDTRepository.Bora'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+						</message>
+						<metainfo
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="115"
+							loglvl="Warn"
+							id="d6c02a980da5406fa6dfaceb6d332ca8"
+							path="/form[@title='']/datetime[@controltypename='MonthDropDownWithUIPermissions']"
+							fullname="BoraTestEspaceVenteDDTRepository.Bora.MonthDropDownWithUIPermissions"
+							itemindex="8">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:03.975"
+						timeRelativeToTestModuleStartTime="00:48.321"
+						timeWallClock="12:20:49"
+						time="01:03.975"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Bora.Open1' at 6;10.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='']/?/?/element[@controlname='UltraDateTimeEditor4']/?/?/combobox[@accessiblerole='ComboBox']/button[@accessiblename='Open']"
+							itempath="?/?/element[@controlname='UltraDateTimeEditor4']/?/?/combobox[@accessiblerole='ComboBox']/button[@accessiblename='Open']"
+							fullname="BoraTestEspaceVenteDDTRepository.Bora.Open1"
+							id="e90e11365df745fd9be46d31072086bc"
+							timeout="60000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="118"
+							itemindex="9"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:04.956"
+						timeRelativeToTestModuleStartTime="00:49.302"
+						timeWallClock="12:20:50"
+						time="01:04.956"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Bora.MonthDropDownWithUIPermissions' at 126;145.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='']/datetime[@controltypename='MonthDropDownWithUIPermissions']"
+							itempath="datetime[@controltypename='MonthDropDownWithUIPermissions']"
+							fullname="BoraTestEspaceVenteDDTRepository.Bora.MonthDropDownWithUIPermissions"
+							id="d6c02a980da5406fa6dfaceb6d332ca8"
+							timeout="60000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="122"
+							itemindex="10"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:35.306"
+						timeRelativeToTestModuleStartTime="01:19.653"
+						timeWallClock="12:21:21"
+						time="01:35.306"
+						level="Warn"
+						category="Repository">
+						<message>
+							Item 'BoraTestEspaceVenteDDTRepository.Bora.MonthDropDownWithUIPermissions' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'BoraTestEspaceVenteDDTRepository.Bora'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+						</message>
+						<metainfo
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="123"
+							loglvl="Warn"
+							id="d6c02a980da5406fa6dfaceb6d332ca8"
+							path="/form[@title='']/datetime[@controltypename='MonthDropDownWithUIPermissions']"
+							fullname="BoraTestEspaceVenteDDTRepository.Bora.MonthDropDownWithUIPermissions"
+							itemindex="10">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:35.885"
+						timeRelativeToTestModuleStartTime="01:20.232"
+						timeWallClock="12:21:21"
+						time="01:35.885"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.Open3' at 7;8.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='Frm_SglBooking']/element[@controlname='UltraTabControl2']/container[@controlname='UltraTabPageControl1']/?/?/element[@controlname='UDtEd_Transaction_Date']/combobox[@accessiblename='__/__/____']/?/?/button[@accessiblename='Open']"
+							itempath="?/?/element[@controlname='UDtEd_Transaction_Date']/combobox[@accessiblename='__/__/____']/?/?/button[@accessiblename='Open']"
+							fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.UltraTabPageControl1.Open3"
+							id="1683da1d0baa4b54b99bf93d3dfb1ecf"
+							timeout="90000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="126"
+							itemindex="11"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:38.988"
+						timeRelativeToTestModuleStartTime="01:23.335"
+						timeWallClock="12:21:25"
+						time="01:38.988"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Bora.MonthDropDownWithUIPermissions' at 156;144.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='']/datetime[@controltypename='MonthDropDownWithUIPermissions']"
+							itempath="datetime[@controltypename='MonthDropDownWithUIPermissions']"
+							fullname="BoraTestEspaceVenteDDTRepository.Bora.MonthDropDownWithUIPermissions"
+							id="d6c02a980da5406fa6dfaceb6d332ca8"
+							timeout="60000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="130"
+							itemindex="12"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:40.035"
+						timeRelativeToTestModuleStartTime="01:24.382"
+						timeWallClock="12:21:26"
+						time="01:40.035"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.Open4' at 8;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='Frm_SglBooking']/element[@controlname='UltraTabControl2']/container[@controlname='UltraTabPageControl1']/?/?/element[@controlname='Cbx_GDS']//button[@accessiblename='Open']"
+							itempath="?/?/element[@controlname='Cbx_GDS']//button[@accessiblename='Open']"
+							fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.UltraTabPageControl1.Open4"
+							id="9f19d8880b3142c0847c259531c859bd"
+							timeout="90000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="134"
+							itemindex="13"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:42.514"
+						timeRelativeToTestModuleStartTime="01:26.861"
+						timeWallClock="12:21:28"
+						time="01:42.514"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Bora.ScrollingRegion' at 85;9.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='']//container[@accessiblename='Data Area']/container[@accessiblename='Scrolling Region']"
+							itempath=".//container[@accessiblename='Data Area']/container[@accessiblename='Scrolling Region']"
+							fullname="BoraTestEspaceVenteDDTRepository.Bora.ScrollingRegion"
+							id="049ca9443305451b90247de96c07ddad"
+							timeout="60000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="138"
+							itemindex="14"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:43.217"
+						timeRelativeToTestModuleStartTime="01:27.564"
+						timeWallClock="12:21:29"
+						time="01:43.217"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.Open5' at 6;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='Frm_SglBooking']/element[@controlname='UltraTabControl2']/container[@controlname='UltraTabPageControl1']/?/?/element[@controlname='Ucbx_Transaction_Fournisseur']//button[@accessiblename='Open']"
+							itempath="?/?/element[@controlname='Ucbx_Transaction_Fournisseur']//button[@accessiblename='Open']"
+							fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.UltraTabPageControl1.Open5"
+							id="1ee50d172cd6410a909b1f9751ed388a"
+							timeout="90000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="142"
+							itemindex="15"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:46.311"
+						timeRelativeToTestModuleStartTime="01:30.658"
+						timeWallClock="12:21:32"
+						time="01:46.311"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Bora.ScrollingRegion' at 180;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='']//container[@accessiblename='Data Area']/container[@accessiblename='Scrolling Region']"
+							itempath=".//container[@accessiblename='Data Area']/container[@accessiblename='Scrolling Region']"
+							fullname="BoraTestEspaceVenteDDTRepository.Bora.ScrollingRegion"
+							id="049ca9443305451b90247de96c07ddad"
+							timeout="60000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="146"
+							itemindex="16"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:47.755"
+						timeRelativeToTestModuleStartTime="01:32.102"
+						timeWallClock="12:21:33"
+						time="01:47.755"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.Open6' at 8;8.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='Frm_SglBooking']/element[@controlname='UltraTabControl2']/container[@controlname='UltraTabPageControl1']/?/?/element[@controlname='Ucbx_Transaction_Produit']/combobox[@accessiblename='AIRTETST']/?/?/button[@accessiblename='Open']"
+							itempath="?/?/element[@controlname='Ucbx_Transaction_Produit']/combobox[@accessiblename='AIRTETST']/?/?/button[@accessiblename='Open']"
+							fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.UltraTabPageControl1.Open6"
+							id="fef9d554cd5545008ba07008b9579fee"
+							timeout="90000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="150"
+							itemindex="17"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:50.455"
+						timeRelativeToTestModuleStartTime="01:34.802"
+						timeWallClock="12:21:36"
+						time="01:50.455"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.Open7' at 7;5.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='Frm_SglBooking']/element[@controlname='UltraTabControl2']/container[@controlname='UltraTabPageControl1']/?/?/element[@controlname='Ucbx_Transaction_Client']//button[@accessiblename='Open']"
+							itempath="?/?/element[@controlname='Ucbx_Transaction_Client']//button[@accessiblename='Open']"
+							fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.UltraTabPageControl1.Open7"
+							id="253eb45ae2f140ee91dd464c250ff05b"
+							timeout="90000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="154"
+							itemindex="18"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:53.758"
+						timeRelativeToTestModuleStartTime="01:38.105"
+						timeWallClock="12:21:39"
+						time="01:53.758"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Bora.ScrollingRegion' at 61;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='']//container[@accessiblename='Data Area']/container[@accessiblename='Scrolling Region']"
+							itempath=".//container[@accessiblename='Data Area']/container[@accessiblename='Scrolling Region']"
+							fullname="BoraTestEspaceVenteDDTRepository.Bora.ScrollingRegion"
+							id="049ca9443305451b90247de96c07ddad"
+							timeout="60000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="158"
+							itemindex="19"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:00.907"
+						timeRelativeToTestModuleStartTime="01:45.254"
+						timeWallClock="12:21:46"
+						time="02:00.907"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.ButtonDropDown1' at 15;8.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='Frm_SglBooking']/element[@controlname='UltraTabControl2']/container[@controlname='UltraTabPageControl1']/?/?/element[@controlname='Ucbx_Transaction_Voyageur']/?/?/combobox/button[1]"
+							itempath="?/?/element[@controlname='Ucbx_Transaction_Voyageur']/?/?/combobox/button[1]"
+							fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.UltraTabPageControl1.ButtonDropDown1"
+							id="50ab14a9d589411781d0c3c7284f20c5"
+							timeout="90000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="162"
+							itemindex="20"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:04.163"
+						timeRelativeToTestModuleStartTime="01:48.510"
+						timeWallClock="12:21:50"
+						time="02:04.163"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Bora.Open2' at 8;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='']/?/?/element[@controlname='Cbx_DepartementVoyageur_']/combobox[@accessiblename='Département']/?/?/button[@accessiblename='Open']"
+							itempath="?/?/element[@controlname='Cbx_DepartementVoyageur_']/combobox[@accessiblename='Département']/?/?/button[@accessiblename='Open']"
+							fullname="BoraTestEspaceVenteDDTRepository.Bora.Open2"
+							id="f794e4b5a6bf47f2b2642abeffee6ac2"
+							timeout="60000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="166"
+							itemindex="21"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:05.116"
+						timeRelativeToTestModuleStartTime="01:49.463"
+						timeWallClock="12:21:51"
+						time="02:05.116"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.Open8' at 6;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='Frm_SglBooking']/element[@controlname='UltraTabControl2']/container[@controlname='UltraTabPageControl1']/?/?/element[@controlname='Ucbx_Transaction_Voyageur']//button[@accessiblename='Open']"
+							itempath="?/?/element[@controlname='Ucbx_Transaction_Voyageur']//button[@accessiblename='Open']"
+							fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.UltraTabPageControl1.Open8"
+							id="4626d82cdb194eb38a5f70a96e6ce5db"
+							timeout="90000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="170"
+							itemindex="22"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:07.760"
+						timeRelativeToTestModuleStartTime="01:52.107"
+						timeWallClock="12:21:53"
+						time="02:07.760"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Bora.ScrollingRegion1' at 144;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='']/?/?/table[@accessiblerole='Table']/?/?/container[@accessiblename='Scrolling Region']"
+							itempath="?/?/table[@accessiblerole='Table']/?/?/container[@accessiblename='Scrolling Region']"
+							fullname="BoraTestEspaceVenteDDTRepository.Bora.ScrollingRegion1"
+							id="bab572baddd048dfaae255ad753fd912"
+							timeout="60000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="178"
+							itemindex="24"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:08.441"
+						timeRelativeToTestModuleStartTime="01:52.788"
+						timeWallClock="12:21:54"
+						time="02:08.441"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.ContainerTransaction' at 327;218.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='Frm_SglBooking']/element[@controlname='UltraTabControl2']/container[@controlname='UltraTabPageControl1']/?/?/container[@accessiblename=' Transaction']"
+							itempath="?/?/container[@accessiblename=' Transaction']"
+							fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.UltraTabPageControl1.ContainerTransaction"
+							id="e29d6797cb9041e58024fa42b0ad9e35"
+							timeout="90000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="182"
+							itemindex="25"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:11.194"
+						timeRelativeToTestModuleStartTime="01:55.541"
+						timeWallClock="12:21:57"
+						time="02:11.194"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.None' at 159;8.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='Frm_SglBooking']/element[@controlname='UltraTabControl2']/container[@controlname='UltraTabPageControl1']/?/?/element[@controlname='Utxb_Transaction_Pnr_']/element[@accessiblerole='None']"
+							itempath="?/?/element[@controlname='Utxb_Transaction_Pnr_']/element[@accessiblerole='None']"
+							fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.UltraTabPageControl1.None"
+							id="97e38bbf7a994379bb8ab04ec4e648be"
+							timeout="90000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="186"
+							itemindex="26"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:13.615"
+						timeRelativeToTestModuleStartTime="01:57.962"
+						timeWallClock="12:21:59"
+						time="02:13.615"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{NumPad1}' with focus on 'FrmSglBooking.UltraTabPageControl1.None'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='Frm_SglBooking']/element[@controlname='UltraTabControl2']/container[@controlname='UltraTabPageControl1']/?/?/element[@controlname='Utxb_Transaction_Pnr_']/element[@accessiblerole='None']"
+							itempath="?/?/element[@controlname='Utxb_Transaction_Pnr_']/element[@accessiblerole='None']"
+							fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.UltraTabPageControl1.None"
+							id="97e38bbf7a994379bb8ab04ec4e648be"
+							timeout="90000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="190"
+							itemindex="27"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:15.802"
+						timeRelativeToTestModuleStartTime="02:00.148"
+						timeWallClock="12:22:01"
+						time="02:15.802"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.Open9' at 6;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='Frm_SglBooking']/element[@controlname='UltraTabControl2']/container[@controlname='UltraTabPageControl1']/?/?/element[@controlname='Cbx_Transaction_NumDossier_']//button[@accessiblename='Open']"
+							itempath="?/?/element[@controlname='Cbx_Transaction_NumDossier_']//button[@accessiblename='Open']"
+							fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.UltraTabPageControl1.Open9"
+							id="25c2b8f154514362817c91e57ee084c0"
+							timeout="90000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="194"
+							itemindex="28"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:19.503"
+						timeRelativeToTestModuleStartTime="02:03.850"
+						timeWallClock="12:22:05"
+						time="02:19.503"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Bora.ScrollingRegion' at 171;8.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='']//container[@accessiblename='Data Area']/container[@accessiblename='Scrolling Region']"
+							itempath=".//container[@accessiblename='Data Area']/container[@accessiblename='Scrolling Region']"
+							fullname="BoraTestEspaceVenteDDTRepository.Bora.ScrollingRegion"
+							id="049ca9443305451b90247de96c07ddad"
+							timeout="60000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="198"
+							itemindex="29"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:20.327"
+						timeRelativeToTestModuleStartTime="02:04.674"
+						timeWallClock="12:22:06"
+						time="02:20.327"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.Open10' at 7;8.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='Frm_SglBooking']/element[@controlname='UltraTabControl2']/container[@controlname='UltraTabPageControl1']//element[@controlname='Cbx_Air_Compagnie__']/combobox[@accessiblename='K5']/?/?/button[@accessiblename='Open']"
+							itempath=".//element[@controlname='Cbx_Air_Compagnie__']/combobox[@accessiblename='K5']/?/?/button[@accessiblename='Open']"
+							fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.UltraTabPageControl1.Open10"
+							id="0c2d974cae9a43ca98f0fe61ec24877b"
+							timeout="90000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="202"
+							itemindex="30"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:25.620"
+						timeRelativeToTestModuleStartTime="02:09.967"
+						timeWallClock="12:22:11"
+						time="02:25.620"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.LblAirCompagnieNom' at 19;6.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='Frm_SglBooking']/element[@controlname='UltraTabControl2']/container[@controlname='UltraTabPageControl1']//text[@controlname='Lbl_Air_CompagnieNom']"
+							itempath=".//text[@controlname='Lbl_Air_CompagnieNom']"
+							fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.UltraTabPageControl1.LblAirCompagnieNom"
+							id="449653e6c8e94566858a3f7f45c02684"
+							timeout="90000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="206"
+							itemindex="31"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:28.827"
+						timeRelativeToTestModuleStartTime="02:13.174"
+						timeWallClock="12:22:14"
+						time="02:28.827"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.ChkAirEticket' at 33;8.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='Frm_SglBooking']/element[@controlname='UltraTabControl2']/container[@controlname='UltraTabPageControl1']//checkbox[@controlname='Chk_Air_Eticket']"
+							itempath=".//checkbox[@controlname='Chk_Air_Eticket']"
+							fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.UltraTabPageControl1.ChkAirEticket"
+							id="f612967821b04946892e83b3c58809f9"
+							timeout="90000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="210"
+							itemindex="32"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:31.489"
+						timeRelativeToTestModuleStartTime="02:15.836"
+						timeWallClock="12:22:17"
+						time="02:31.489"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.None1' at 13;9.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='Frm_SglBooking']/element[@controlname='UltraTabControl2']/container[@controlname='UltraTabPageControl1']//element[@controlname='Utxb_Air_NumBillet']/element[@accessiblerole='None']"
+							itempath=".//element[@controlname='Utxb_Air_NumBillet']/element[@accessiblerole='None']"
+							fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.UltraTabPageControl1.None1"
+							id="658058ac1b65459bb0537edd62438213"
+							timeout="90000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="214"
+							itemindex="33"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:34.178"
+						timeRelativeToTestModuleStartTime="02:18.525"
+						timeWallClock="12:22:20"
+						time="02:34.178"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{NumPad1}' with focus on 'FrmSglBooking.UltraTabPageControl1.None1'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='Frm_SglBooking']/element[@controlname='UltraTabControl2']/container[@controlname='UltraTabPageControl1']//element[@controlname='Utxb_Air_NumBillet']/element[@accessiblerole='None']"
+							itempath=".//element[@controlname='Utxb_Air_NumBillet']/element[@accessiblerole='None']"
+							fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.UltraTabPageControl1.None1"
+							id="658058ac1b65459bb0537edd62438213"
+							timeout="90000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="218"
+							itemindex="34"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:36.551"
+						timeRelativeToTestModuleStartTime="02:20.898"
+						timeWallClock="12:22:22"
+						time="02:36.551"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.None2' at 16;10.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='Frm_SglBooking']/element[@controlname='UltraTabControl2']/container[@controlname='UltraTabPageControl1']//element[@controlname='Utxb_Air_NumBilletComplement']/element[@accessiblerole='None']"
+							itempath=".//element[@controlname='Utxb_Air_NumBilletComplement']/element[@accessiblerole='None']"
+							fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.UltraTabPageControl1.None2"
+							id="2a0a6a8c6711403bbd1e6135076b62e3"
+							timeout="90000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="222"
+							itemindex="35"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:39.510"
+						timeRelativeToTestModuleStartTime="02:23.857"
+						timeWallClock="12:22:25"
+						time="02:39.510"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{NumPad1}' with focus on 'FrmSglBooking.UltraTabPageControl1.None2'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='Frm_SglBooking']/element[@controlname='UltraTabControl2']/container[@controlname='UltraTabPageControl1']//element[@controlname='Utxb_Air_NumBilletComplement']/element[@accessiblerole='None']"
+							itempath=".//element[@controlname='Utxb_Air_NumBilletComplement']/element[@accessiblerole='None']"
+							fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.UltraTabPageControl1.None2"
+							id="2a0a6a8c6711403bbd1e6135076b62e3"
+							timeout="90000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="226"
+							itemindex="36"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:53.161"
+						timeRelativeToTestModuleStartTime="02:37.507"
+						timeWallClock="12:22:39"
+						time="02:53.161"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.UtxbVoyageurXp' at 15;10.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='Frm_SglBooking']/element[@controlname='UltraTabControl2']/container[@controlname='UltraTabPageControl1']//text[@controlname='Utxb_Voyageur_xp']"
+							itempath=".//text[@controlname='Utxb_Voyageur_xp']"
+							fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.UltraTabPageControl1.UtxbVoyageurXp"
+							id="8bddb61dfb804f5cb1fd1259dca97e8d"
+							timeout="90000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="230"
+							itemindex="37"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:56.237"
+						timeRelativeToTestModuleStartTime="02:40.583"
+						timeWallClock="12:22:42"
+						time="02:56.237"
+						level="Info"
+						category="Keyboard"
+						errimg="images_BoraTest_263dec3c\BoraTest_263dec3c_b1815d27_trace.jpg"
+						errthumb="images_BoraTest_263dec3c\BoraTest_263dec3c_b1815d27_trace_thumb.jpg">
+						<message>
+							Key sequence ' ' with focus on 'FrmSglBooking'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='Frm_SglBooking']"
+							itempath="/form[@controlname='Frm_SglBooking']"
+							fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.Self"
+							id="d90d0e2c31464da6a823ba51f3901dc4"
+							timeout="30000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="234"
+							itemindex="38"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:56.616"
+						timeRelativeToTestModuleStartTime="02:40.962"
+						timeWallClock="12:22:42"
+						time="02:56.616"
+						level="Info"
+						category="Mouse"
+						errimg="images_BoraTest_263dec3c\BoraTest_263dec3c_ffaf9e5a_trace.jpg"
+						errthumb="images_BoraTest_263dec3c\BoraTest_263dec3c_ffaf9e5a_trace_thumb.jpg">
+						<message>
+							Mouse Left Click item 'Bora.Cell' at 19;10.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@title='']/?/?/row[@index='0']/cell[@text=' ']"
+							itempath="?/?/row[@index='0']/cell[@text=' ']"
+							fullname="BoraTestEspaceVenteDDTRepository.Bora.Cell"
+							id="2fd6d536f0574e83b83c0025ab02a54f"
+							timeout="60000"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="239"
+							itemindex="39"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:56.774"
+						timeRelativeToTestModuleStartTime="03:41.120"
+						timeWallClock="12:23:42"
+						time="03:56.774"
+						level="Error"
+						category="Module"
+						errimg="images_BoraTest_263dec3c\BoraTest_263dec3c_8b10ce46_trace.jpg"
+						errthumb="images_BoraTest_263dec3c\BoraTest_263dec3c_8b10ce46_trace_thumb.jpg">
+						<message>
+							Failed to find item 'BoraTestEspaceVenteDDTRepository.Bora.Cell'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/form[@title='']/?/?/row[@index='0']/cell[@text=' ']' at step 'form[@title='']' after 830 attempts within 1m.
+						</message>
+						<metainfo
+							stacktrace="   à Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   à Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   à Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   à Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   à Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   à Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   à BoraTestEspaceVenteDDT.BoraTestEspaceVenteDDTRepositoryFolders.BoraAppFolder.get_Cell() dans c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDTRepository.cs:ligne 4204&#13;&#10;   à BoraTestEspaceVenteDDT.createInfosGenerales.Ranorex.Core.Testing.ITestModule.Run() dans c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs:ligne 240&#13;&#10;   à Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+							codeline="240"
+							type="repoitem"
+							path="/form[@title='']/?/?/row[@index='0']/cell[@text=' ']"
+							itempath="?/?/row[@index='0']/cell[@text=' ']"
+							fullname="BoraTestEspaceVenteDDTRepository.Bora.Cell"
+							id="2fd6d536f0574e83b83c0025ab02a54f"
+							timeout="60000"
+							failedStep="form[@title='']"
+							bestPathPrefix=""
+							loglvl="Error"
+							itemindex="39">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

@@ -1,0 +1,13 @@
+C:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\bin\Debug\BoraTestEspaceVenteDDT.rxtmg
+C:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\bin\Debug\BoraTestEspaceVenteDDT.rxtst
+C:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\bin\Debug\BoraTestEspaceVenteDDT.exe.config
+C:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\bin\Debug\BoraTestEspaceVenteDDT.xml
+C:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\bin\Debug\BoraTestEspaceVenteDDT.exe
+C:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\bin\Debug\BoraTestEspaceVenteDDT.pdb
+C:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\obj\x86\Debug\BoraTestEspaceVenteDDT.csprojResolveAssemblyReference.cache
+C:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\obj\x86\Debug\BoraTestEspaceVenteDDT.exe
+C:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\obj\x86\Debug\BoraTestEspaceVenteDDT.pdb
+C:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\bin\Debug\Bora Espace Vente Test Case.xlsx
+C:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\bin\Debug\Microsoft.Office.Interop.Excel.xml

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.2m"
+		durationms="74053"
+		type="root"
+		rid="daadb4787270c6"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Doutat"
+		rxversion="9.3.2.0"
+		host="DESKTOP-Q382A2M"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="fr-FR"
+		dtnlanguage="fr-FR"
+		screenresolution="1440x900"
+		timestamp="25/08/2025 12:36:31"
+		timestampiso="2025-08-25T11:36:31"
+		endtime="25/08/2025 12:37:45"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="createInfosGenerales">
+		<detail>
+			createInfosGenerales
+		</detail>
+		<errormessage>
+			Failed to find item 'BoraTestEspaceVenteDDTRepository.Bora.Cell'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.604"
+			timeRelativeToTestModuleStartTime="00:08.604"
+			timeWallClock="12:36:39"
+			time="00:08.604"
+			level="Info"
+			category="Mouse"
+			errimg="images_createIn_9214f0db\createIn_9214f0db_ae515b16_trace.jpg"
+			errthumb="images_createIn_9214f0db\createIn_9214f0db_ae515b16_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.UtxbVoyageurXp' at 15;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='Frm_SglBooking']/element[@controlname='UltraTabControl2']/container[@controlname='UltraTabPageControl1']//text[@controlname='Utxb_Voyageur_xp']"
+				itempath=".//text[@controlname='Utxb_Voyageur_xp']"
+				fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.UltraTabPageControl1.UtxbVoyageurXp"
+				id="8bddb61dfb804f5cb1fd1259dca97e8d"
+				timeout="90000"
+				codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+				codeline="82"
+				itemindex="37"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.508"
+			timeRelativeToTestModuleStartTime="00:13.508"
+			timeWallClock="12:36:44"
+			time="00:13.508"
+			level="Info"
+			category="Mouse"
+			errimg="images_createIn_9214f0db\createIn_9214f0db_192f6655_trace.jpg"
+			errthumb="images_createIn_9214f0db\createIn_9214f0db_192f6655_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'Bora.Cell' at 19;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='']/?/?/row[@index='0']/cell[@text=' ']"
+				itempath="?/?/row[@index='0']/cell[@text=' ']"
+				fullname="BoraTestEspaceVenteDDTRepository.Bora.Cell"
+				id="2fd6d536f0574e83b83c0025ab02a54f"
+				timeout="60000"
+				codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+				codeline="91"
+				itemindex="39"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:13.625"
+			timeRelativeToTestModuleStartTime="01:13.625"
+			timeWallClock="12:37:44"
+			time="01:13.625"
+			level="Error"
+			category="Module"
+			errimg="images_createIn_9214f0db\createIn_9214f0db_9f45301b_trace.jpg"
+			errthumb="images_createIn_9214f0db\createIn_9214f0db_9f45301b_trace_thumb.jpg">
+			<message>
+				Failed to find item 'BoraTestEspaceVenteDDTRepository.Bora.Cell'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/form[@title='']/?/?/row[@index='0']/cell[@text=' ']' at step 'form[@title='']' after 844 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   à Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   à Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   à Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   à Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   à Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   à Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   à BoraTestEspaceVenteDDT.BoraTestEspaceVenteDDTRepositoryFolders.BoraAppFolder.get_Cell() dans c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDTRepository.cs:ligne 4204&#13;&#10;   à BoraTestEspaceVenteDDT.createInfosGenerales.Ranorex.Core.Testing.ITestModule.Run() dans c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs:ligne 92&#13;&#10;   à Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales.cs"
+				codeline="92"
+				type="repoitem"
+				path="/form[@title='']/?/?/row[@index='0']/cell[@text=' ']"
+				itempath="?/?/row[@index='0']/cell[@text=' ']"
+				fullname="BoraTestEspaceVenteDDTRepository.Bora.Cell"
+				id="2fd6d536f0574e83b83c0025ab02a54f"
+				timeout="60000"
+				failedStep="form[@title='']"
+				bestPathPrefix=""
+				loglvl="Error"
+				itemindex="39">
+			</metainfo>
+		</item>
+	</activity>
+</report>

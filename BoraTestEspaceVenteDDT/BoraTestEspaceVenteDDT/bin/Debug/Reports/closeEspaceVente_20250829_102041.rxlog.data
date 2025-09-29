@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="17.1s"
+		durationms="17104"
+		type="root"
+		rid="ad76f0665691f0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Doutat"
+		rxversion="9.3.2.0"
+		host="DESKTOP-Q382A2M"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="fr-FR"
+		dtnlanguage="fr-FR"
+		screenresolution="1440x900"
+		timestamp="29/08/2025 10:20:49"
+		timestampiso="2025-08-29T09:20:49"
+		endtime="29/08/2025 10:21:06"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="closeEspaceVente">
+		<detail>
+			closeEspaceVente
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.007"
+			timeRelativeToTestModuleStartTime="00:12.007"
+			timeWallClock="10:21:01"
+			time="00:12.007"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FrmMDI.Fermer' at 11;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='Frm_MDI']/?/?/menuitem[@accessiblename='Fermer']"
+				itempath="?/?/menuitem[@accessiblename='Fermer']"
+				fullname="BoraTestEspaceVenteDDTRepository.FrmMDI.Fermer"
+				id="3c99ffcde63b40b79e71eb6ac848e383"
+				timeout="60000"
+				codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\closeEspaceVente.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

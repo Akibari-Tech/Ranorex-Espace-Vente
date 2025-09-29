@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="48eb96ad-d971-4b75-86a8-605955ae271b"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="startEspaceVente"
+	namespace="BoraTestEspaceVenteDDT">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="35;15"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="42a4b03f-f58e-4d3d-8ef6-f0f3e21a6fd2"
+		sx="94"
+		sy="61"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="69b60512-9345-4db6-b5fb-5986969b1b62"
+			sourcename="Recorder">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="True"
+				index="2"
+				prefcap="button"
+				rect="59,46,79,35"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Espace Vente
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						Appuyer
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Espace Vente
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PushButton
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focused, HotTracked, Focusable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@controlname='Frm_MDI']//toolbar[@controlname='ToolStrip1']/button[@accessiblename='Espace Vente']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="a5529c6f-78f1-4fcd-9ddd-143395196813">
+				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
+/wDnnF+Zo+1T/wDPOL8zUdFO5iSfap/+ecX5mj7VP/zzi/M1HRRcCT7VP/zzi/M0fap/+ecX5mo6
+KLgSfap/+ecX5mj7VP8A884vzNR0UXAk+1T/APPOL8zR9qn/AOecX5mo6KLgSfap/wDnnF+Zo+1T
+/wDPOL8zUdFFwJPtU/8Azzi/M0fap/8AnnF+ZqOii4DYvufif506mxfc/E/zp1ABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFADYvufif50
+6mxfc/E/zp1ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFADYvufif506mxfc/E/wA6dQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA2L7n4n+dOpsX3PxP86dQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA2L7n4n+d
+OpsX3PxP86dQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQA2L7n4n+dOpsX3PxP86dQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA2L7n4n+dOpsX3PxP8AOnUAFFFFABRRRQAU
+UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUANi+5+J/n
+TqbF9z8T/OnUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAf/Z
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="c23407dd-5074-4b23-97dd-e9f2dc7b48ba"
+	name="BoraTestEspaceVenteDDTRepository"
+	relativepath="BoraTestEspaceVenteDDTRepository.rxrep">
+		<codegen
+		classname="BoraTestEspaceVenteDDTRepository"
+		namespace="BoraTestEspaceVenteDDT">
+		</codegen>
+		<rootfolder
+		id="1910ec79-3bda-4be8-b21e-2c7ab31e5031"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		startEspaceVente.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

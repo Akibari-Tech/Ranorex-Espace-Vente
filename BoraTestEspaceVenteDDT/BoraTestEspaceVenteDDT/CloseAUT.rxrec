@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="d51f0b0e-fbe2-43db-962a-eea0e43160ff"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="BoraTestEspaceVenteDDT">
+	</codegen>
+	<variables>
+		<var
+		id="0dfcc58b-600b-40ab-8c67-7a17a3634686"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="2f9d2042-4e3f-40ae-9c14-3095e1c4e607">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="c23407dd-5074-4b23-97dd-e9f2dc7b48ba"
+	name="BoraTestEspaceVenteDDTRepository"
+	relativepath="BoraTestEspaceVenteDDTRepository.rxrep">
+		<codegen
+		classname="BoraTestEspaceVenteDDTRepository"
+		namespace="BoraTestEspaceVenteDDT">
+		</codegen>
+		<rootfolder
+		id="1910ec79-3bda-4be8-b21e-2c7ab31e5031"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

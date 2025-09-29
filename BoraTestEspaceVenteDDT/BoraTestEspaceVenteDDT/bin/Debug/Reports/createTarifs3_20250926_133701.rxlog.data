@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.6m"
+		durationms="94669"
+		type="root"
+		rid="2d08abd34a72908"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Doutat"
+		rxversion="9.3.2.0"
+		host="DESKTOP-Q382A2M"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="fr-FR"
+		dtnlanguage="fr-FR"
+		screenresolution="1440x900"
+		timestamp="26/09/2025 13:37:18"
+		timestampiso="2025-09-26T12:37:18"
+		endtime="26/09/2025 13:38:59"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="createTarifs3">
+		<detail>
+			createTarifs3
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.123"
+			timeRelativeToTestModuleStartTime="00:23.123"
+			timeWallClock="13:37:41"
+			time="00:23.123"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>tauxOfficiel, tauxAchat, tauxVente, tarifPublie, tarifNegocie, penalite, devise
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.200"
+			timeRelativeToTestModuleStartTime="00:23.200"
+			timeWallClock="13:37:41"
+			time="00:23.200"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FrmSglBooking.TabPageTarifs' at 25;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='Frm_SglBooking']/element[@controlname='UltraTabControl2']/?/?/tabpage[@accessiblename='&amp;Tarifs']"
+				itempath="element[@controlname='UltraTabControl2']/?/?/tabpage[@accessiblename='&amp;Tarifs']"
+				fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.TabPageTarifs"
+				id="dbbd62561f9d48ff815f85a61974c2f2"
+				timeout="60000"
+				codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createTarifs3.cs"
+				codeline="170"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:39.893"
+			timeRelativeToTestModuleStartTime="00:39.893"
+			timeWallClock="13:37:58"
+			time="00:39.893"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FrmSglBooking.UltraTabPageControl2.Open' at 4;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='Frm_SglBooking']/?/?/container[@controlname='UltraTabPageControl2']/?/?/element[@controlname='Cbx_ComposanteT_Devise_']/combobox[@accessiblename='Retour']/?/?/button[@accessiblename='Open']"
+				itempath="?/?/element[@controlname='Cbx_ComposanteT_Devise_']/combobox[@accessiblename='Retour']/?/?/button[@accessiblename='Open']"
+				fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.UltraTabPageControl2.Open"
+				id="3266cfc9a67747bdb23604e01f990bec"
+				timeout="90000"
+				codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createTarifs3.cs"
+				codeline="174"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:49.013"
+			timeRelativeToTestModuleStartTime="00:49.013"
+			timeWallClock="13:38:07"
+			time="00:49.013"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Bora.ListItemMRO' at 24;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='']/?/?/list[@accessiblename='MRU']/listitem[@accessiblename='MRO']"
+				itempath="?/?/list[@accessiblename='MRU']/listitem[@accessiblename=$devise]"
+				fullname="BoraTestEspaceVenteDDTRepository.Bora.ListItemMRO"
+				id="dbe6d48522814ad49babfa6d9ab189a8"
+				timeout="60000"
+				codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createTarifs3.cs"
+				codeline="178"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:34.662"
+			timeRelativeToTestModuleStartTime="01:34.662"
+			timeWallClock="13:38:53"
+			time="01:34.662"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

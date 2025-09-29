@@ -1,0 +1,11 @@
+fournisseur
+type de document
+date de transaction (Date/GDS) (pas Date Réservation et Echéance Fournisseur à l'intérieur)
+nom voyageur
+classe de réservation (Classe de Résa)
+date de départ (Départ)
+date de retour (Retour)
+numéro du billet
+itinéraire
+destination (à l'intérieur de itinéraire)
+ticketing agent

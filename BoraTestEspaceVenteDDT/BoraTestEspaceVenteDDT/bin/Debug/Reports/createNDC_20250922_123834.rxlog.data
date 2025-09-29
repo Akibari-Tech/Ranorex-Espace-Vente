@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="2.1m"
+		durationms="124385"
+		type="root"
+		rid="1b0664c4c0b56f0"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Doutat"
+		rxversion="9.3.2.0"
+		host="DESKTOP-Q382A2M"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="fr-FR"
+		dtnlanguage="fr-FR"
+		screenresolution="1440x900"
+		timestamp="22/09/2025 12:38:59"
+		timestampiso="2025-09-22T11:38:59"
+		endtime="22/09/2025 12:41:03"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="createNDC">
+		<detail>
+			createNDC
+		</detail>
+		<errormessage>
+			startIndex ne peut pas être supérieur à la longueur de la chaîne.
+Nom du paramètre : startIndex
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="01:20.269"
+			timeRelativeToTestModuleStartTime="01:20.269"
+			timeWallClock="12:40:19"
+			time="01:20.269"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>nomClient2, nomVoyageur, ticketingAgent2, cash2, id, ndcContent, reportingIndicator, typeDocument2
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:21.468"
+			timeRelativeToTestModuleStartTime="01:21.468"
+			timeWallClock="12:40:20"
+			time="01:21.468"
+			level="Info"
+			category="Validation"
+			errimg="images_createND_25922d51\createND_25922d51_88f3a255_trace.jpg"
+			errthumb="images_createND_25922d51\createND_25922d51_88f3a255_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (Text='Billet K5 1 enregistré  avec succès.') on item 'textInfo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='BoraMessageBox']/?/?/text[@accessiblename>'Billet K5 1 enregistré  avec']"
+				itempath="?/?/text[@accessiblename>'Billet K5 1 enregistré  avec']"
+				fullname="BoraTestEspaceVenteDDTRepository.BoraMessageBox.BilletK51EnregistreAvecSucces"
+				id="57d8aad0a0cc42339ce2fef6e0e110ff"
+				timeout="60000"
+				codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createNDC.UserCode.cs"
+				codeline="64"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:36.088"
+			timeRelativeToTestModuleStartTime="01:36.088"
+			timeWallClock="12:40:35"
+			time="01:36.088"
+			level="Success"
+			category="Validation"
+			errimg="images_createND_25922d51\createND_25922d51_32741010_trace.jpg"
+			errthumb="images_createND_25922d51\createND_25922d51_32741010_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'BoraTestEspaceVenteDDTRepository.BoraMessageBox.BilletK51EnregistreAvecSucces' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='BoraMessageBox']/?/?/text[@accessiblename>'Billet K5 1 enregistré  avec']"
+				itempath="?/?/text[@accessiblename>'Billet K5 1 enregistré  avec']"
+				fullname="BoraTestEspaceVenteDDTRepository.BoraMessageBox.BilletK51EnregistreAvecSucces"
+				id="57d8aad0a0cc42339ce2fef6e0e110ff"
+				timeout="60000"
+				codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createNDC.UserCode.cs"
+				codeline="65"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:03.519"
+			timeRelativeToTestModuleStartTime="02:03.519"
+			timeWallClock="12:41:02"
+			time="02:03.519"
+			level="Error"
+			category="Module"
+			errimg="images_createND_25922d51\createND_25922d51_c0044e94_trace.jpg"
+			errthumb="images_createND_25922d51\createND_25922d51_c0044e94_trace_thumb.jpg">
+			<message>
+				startIndex ne peut pas être supérieur à la longueur de la chaîne.<br/>Nom du paramètre : startIndex
+			</message>
+			<metainfo
+				stacktrace="   à System.String.Substring(Int32 startIndex, Int32 length)
+   à System.String.Substring(Int32 startIndex)
+   à BoraTestEspaceVenteDDT.createNDC.writeToExcel(String reponse) dans c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createNDC.UserCode.cs:ligne 47
+   à BoraTestEspaceVenteDDT.createNDC.Validate_BilletK51EnregistreAvecSucces(RepoItemInfo textInfo) dans c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createNDC.UserCode.cs:ligne 67
+   à BoraTestEspaceVenteDDT.createNDC.Ranorex.Core.Testing.ITestModule.Run() dans c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createNDC.cs:ligne 177
+   à Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createNDC.UserCode.cs"
+				codeline="47"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

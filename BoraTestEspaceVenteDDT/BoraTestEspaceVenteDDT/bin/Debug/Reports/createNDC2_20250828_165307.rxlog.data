@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="24.76s"
+		durationms="24758"
+		type="root"
+		rid="109b08c6a52b6ff0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Doutat"
+		rxversion="9.3.2.0"
+		host="DESKTOP-Q382A2M"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="fr-FR"
+		dtnlanguage="fr-FR"
+		screenresolution="1440x900"
+		timestamp="28/08/2025 16:53:17"
+		timestampiso="2025-08-28T15:53:17"
+		endtime="28/08/2025 16:53:42"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="createNDC2">
+		<detail>
+			createNDC2
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.143"
+			timeRelativeToTestModuleStartTime="00:11.143"
+			timeWallClock="16:53:28"
+			time="00:11.143"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'FrmSglBooking.UltraTabPageControl21.EmbeddableTextBoxWithUIPermissions' at 149;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='Frm_SglBooking']/element[@controlname='UltraTabControl2']/container[@controlname='UltraTabPageControl2']//text[@controltypename='EmbeddableTextBoxWithUIPermissions' and @instance='0']"
+				itempath=".//text[@controltypename='EmbeddableTextBoxWithUIPermissions' and @instance='0']"
+				fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.UltraTabPageControl21.EmbeddableTextBoxWithUIPermissions"
+				id="f982460f0bf34f7ba5ef6287108426b0"
+				timeout="90000"
+				codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createNDC2.cs"
+				codeline="82"
+				itemindex="26"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.866"
+			timeRelativeToTestModuleStartTime="00:19.866"
+			timeWallClock="16:53:37"
+			time="00:19.866"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'FrmSglBooking.UltraTabPageControl21.EmbeddableTextBoxWithUIPermissions' at 154;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='Frm_SglBooking']/element[@controlname='UltraTabControl2']/container[@controlname='UltraTabPageControl2']//text[@controltypename='EmbeddableTextBoxWithUIPermissions' and @instance='0']"
+				itempath=".//text[@controltypename='EmbeddableTextBoxWithUIPermissions' and @instance='0']"
+				fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.UltraTabPageControl21.EmbeddableTextBoxWithUIPermissions"
+				id="f982460f0bf34f7ba5ef6287108426b0"
+				timeout="90000"
+				codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createNDC2.cs"
+				codeline="87"
+				itemindex="27"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

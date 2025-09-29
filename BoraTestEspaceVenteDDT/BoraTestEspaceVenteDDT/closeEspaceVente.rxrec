@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a1bf407b-375f-4daf-a6dc-9fa6e8b66c4a"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="closeEspaceVente"
+	namespace="BoraTestEspaceVenteDDT">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="11;10"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="cafc3b66-896f-4d30-9a06-7bd80eb371e1"
+		sx="1431"
+		sy="34"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3c99ffcd-e63b-40b7-9e71-eb6ac848e383"
+			sourcename="Recorder">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="True"
+				index="12"
+				prefcap="menuitem"
+				rect="1420,24,20,22"
+				role="menuitem"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="checked"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Fermer
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						Appuyer
+					</attribute>
+					<attribute
+					name="accessiblekeyboardshortcut"
+					type="System.String">
+						Alt+f
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Fermer
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						MenuItem
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focused, HotTracked, Focusable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@controlname='Frm_MDI']/?/?/menuitem[@accessiblename='Fermer']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="6dd4516b-1d5f-4b89-a216-6fc51a29da2c">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABfAEYDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDbtL1L
+ssERl2qGyWVgQSRwVJ7qas1n6XFIJJ53XakjEICCGx5jnJBAx96tCgAooooAKhjuonhaQnywn3w/
+BQ+9TVnSW0t3KLsKIymNkbjHmAf3/wCnp19qAL0MnmxBwrKG6Bhg4p9Mhk82IOUZCeqsMEGn0AFF
+FFABRRRQAUUUUAFNlkEUTyNkhFLHHtUV3eQWUQkuZNiFtoOCefw+lVzqFrfWN19ll8zZGd3ykYyD
+jqPahlRV2kR/27a/885vyH+NH9u2v/POb8h/jVXS4o3tSXRWO48kZ9KsYs/J879x5f8Af42+nWhQ
+bSd/wLnOnGTjybPv/wAAd/btr/zzm/If40VW1GKNLdSiKp3dQMdjRWsaDkr834GMsTSi7cn4/wDA
+NyiiishlK21L7ROsX2K8i3Z+eSLao47nNXaKKAMrUYBNqAMs17EiRqYzbhiN2WB6A84x+dJbQSR6
+fdyyyyPujZF81SH2qXwTnqSG9BWtUN7/AMeM/wD1zb+VJ7FQ+JGVpP8Ax6H/AHz/ACFZiafPcXSN
+HGLeCSYmOCXONwUnJXsDj9a0NOlWK2wxXlif9Yo/QmrCzLJfWgXH+sJ4dT/A3oTVq3KtegVYyVSW
+nV/mVrycTWu1lMcqSASRt1U4P5j0PeirOsjTJPLe6uGifLKskWSTjqpwD3oraFZRVmjlnRcndM1q
+KM0ZrnOgKKM0ZoAKR0WRGRxlWBBHtS5ozQBS/smx/wCeH/j7f4019ItcqYfMgdc4eN+eQR3z61fz
+RmlyrsW6s2rOTMiXR1G6GKCOS1Yq4jeVl2uAQSCAeCMUVr5opkEe6jdUeaM1VhEm6jdUeaM0WAk3
+UbqjzRmiwEm6jdUeaM0WAk3UVHmiiwEW279IP++j/hRtu/SD/vo/4VaopXGVdt36Qf8AfR/wo23f
+pB/30f8ACrVFFwKu279IP++j/hRtu/SD/vo/4VaoouBV23fpB/30f8KNt36Qf99H/CrVFFwIYUlL
+ETbAMcbCTRU6/e/Cii4H/9k=
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="c23407dd-5074-4b23-97dd-e9f2dc7b48ba"
+	name="BoraTestEspaceVenteDDTRepository"
+	relativepath="BoraTestEspaceVenteDDTRepository.rxrep">
+		<codegen
+		classname="BoraTestEspaceVenteDDTRepository"
+		namespace="BoraTestEspaceVenteDDT">
+		</codegen>
+		<rootfolder
+		id="1910ec79-3bda-4be8-b21e-2c7ab31e5031"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		closeEspaceVente.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

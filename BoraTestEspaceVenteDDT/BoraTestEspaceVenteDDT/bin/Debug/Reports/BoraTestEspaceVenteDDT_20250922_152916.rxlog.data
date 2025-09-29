@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="15.64s"
+		durationms="15635"
+		type="root"
+		rid="1f913ab28d744943"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Doutat"
+		rxversion="9.3.2.0"
+		host="DESKTOP-Q382A2M"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="fr-FR"
+		dtnlanguage="fr-FR"
+		screenresolution="1440x900"
+		timestamp="22/09/2025 15:29:16"
+		timestampiso="2025-09-22T14:29:16"
+		endtime="22/09/2025 15:29:32"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="266ms"
+			durationms="266"
+			type="test-suite"
+			rid="2d10eae609a38c0"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="0"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="0"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="BoraTestEspaceVenteDDT"
+			headertext="BoraTestEspaceVenteDDT"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+				<param
+					name="AppProcessID">
+				</param>
+			</params>
+			<item
+				timeRelativeToTestSuiteStartTime="00:00.260"
+				timeRelativeToTestModuleStartTime="00:00.260"
+				timeWallClock="15:29:32"
+				time="00:00.260"
+				level="Error"
+				category="Module">
+				<message>
+					The test run has been aborted by the user.
+				</message>
+				<metainfo
+					loglvl="Error">
+				</metainfo>
+			</item>
+		</activity>
+	</activity>
+</report>

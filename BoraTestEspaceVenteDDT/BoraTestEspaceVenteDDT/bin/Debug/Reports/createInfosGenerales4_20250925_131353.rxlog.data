@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="17.54s"
+		durationms="17542"
+		type="root"
+		rid="157328185ff72512"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Doutat"
+		rxversion="9.3.2.0"
+		host="DESKTOP-Q382A2M"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="fr-FR"
+		dtnlanguage="fr-FR"
+		screenresolution="1440x900"
+		timestamp="25/09/2025 13:14:01"
+		timestampiso="2025-09-25T12:14:01"
+		endtime="25/09/2025 13:14:18"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="createInfosGenerales4">
+		<detail>
+			createInfosGenerales4
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.671"
+			timeRelativeToTestModuleStartTime="00:10.671"
+			timeWallClock="13:14:12"
+			time="00:10.671"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>typeDocument2, classeResa, destination
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.820"
+			timeRelativeToTestModuleStartTime="00:10.820"
+			timeWallClock="13:14:12"
+			time="00:10.820"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.UtxbVoyageurXp' at 14;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='Frm_SglBooking']/element[@controlname='UltraTabControl2']/container[@controlname='UltraTabPageControl1']//text[@controlname='Utxb_Voyageur_xp']"
+				itempath=".//text[@controlname='Utxb_Voyageur_xp']"
+				fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.UltraTabPageControl1.UtxbVoyageurXp"
+				id="8bddb61dfb804f5cb1fd1259dca97e8d"
+				timeout="90000"
+				codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales4.cs"
+				codeline="112"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.350"
+			timeRelativeToTestModuleStartTime="00:16.350"
+			timeWallClock="13:14:17"
+			time="00:16.350"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Bora.CellATB' at 16;6.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='']/?/?/row[@index='1']/cell[@text=' ATB']"
+				itempath="?/?/row[@index='1']/cell[@text=$typeDocument2]"
+				fullname="BoraTestEspaceVenteDDTRepository.Bora.CellATB"
+				id="7b91c3f30a4d45db98ce506829ecaa90"
+				timeout="60000"
+				codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales4.cs"
+				codeline="121"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

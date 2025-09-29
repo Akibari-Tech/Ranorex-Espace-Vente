@@ -1,0 +1,13 @@
+﻿<Properties>
+  <Array name="active" />
+  <Array name="bookmarks">
+    <Element value="Breakpoint|C:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createNDC.UserCode.cs|52|13|True|Break||" />
+  </Array>
+  <Array name="files">
+    <Element value="BoraTestEspaceVenteDDT.rxtst" />
+    <Element value="createInfosGenerales4.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>
