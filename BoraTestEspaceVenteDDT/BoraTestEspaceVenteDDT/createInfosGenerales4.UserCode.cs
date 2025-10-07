@@ -19,6 +19,7 @@ using Ranorex;
 using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
+using Excel = Microsoft.Office.Interop.Excel;
 
 namespace BoraTestEspaceVenteDDT
 {
@@ -31,6 +32,369 @@ namespace BoraTestEspaceVenteDDT
         private void Init()
         {
             // Your recording specific initialization code goes here.
+        }
+        
+        void writeToExcel(string reponse)
+        {
+        	
+        	Excel.Application myexcelApplication = new Excel.Application();
+            Excel.Workbook myexcelWorkbook = myexcelApplication.Workbooks.Open(System.IO.Directory.GetCurrentDirectory()+@"\Bora Espace Vente Test Case.xlsx");
+
+            Excel.Worksheet myexcelWorksheet = myexcelWorkbook.Worksheets["UC Espace Vente Data"] as
+                Microsoft.Office.Interop.Excel.Worksheet;
+
+            
+            Excel.Range cell=(Excel.Range)myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 117+2];
+            if(reponse==(string)cell.Text){
+            	myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 2+2] = "ok";
+            }else{
+            	myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 2+2] = "not ok";
+            }
+
+            
+            myexcelApplication.ActiveWorkbook.Save();
+
+            myexcelWorkbook.Close();
+            myexcelApplication.Quit();
+            
+        }
+        
+        void writeToExcel2(string reponse)
+        {
+        	
+        	Excel.Application myexcelApplication = new Excel.Application();
+            Excel.Workbook myexcelWorkbook = myexcelApplication.Workbooks.Open(System.IO.Directory.GetCurrentDirectory()+@"\Bora Espace Vente Test Case.xlsx");
+
+            Excel.Worksheet myexcelWorksheet = myexcelWorkbook.Worksheets["UC Espace Vente Data"] as
+                Microsoft.Office.Interop.Excel.Worksheet;
+
+            
+            Excel.Range cell=(Excel.Range)myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 117+3];
+            if(reponse==(string)cell.Text){
+            	myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 2+3] = "ok";
+            }else{
+            	myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 2+3] = "not ok";
+            }
+
+            
+            myexcelApplication.ActiveWorkbook.Save();
+
+            myexcelWorkbook.Close();
+            myexcelApplication.Quit();
+            
+        }
+        
+        void writeToExcel3(string reponse)
+        {
+        	
+        	Excel.Application myexcelApplication = new Excel.Application();
+            Excel.Workbook myexcelWorkbook = myexcelApplication.Workbooks.Open(System.IO.Directory.GetCurrentDirectory()+@"\Bora Espace Vente Test Case.xlsx");
+
+            Excel.Worksheet myexcelWorksheet = myexcelWorkbook.Worksheets["UC Espace Vente Data"] as
+                Microsoft.Office.Interop.Excel.Worksheet;
+
+            
+            Excel.Range cell=(Excel.Range)myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 117+4];
+            if(reponse==(string)cell.Text){
+            	myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 2+4] = "ok";
+            }else{
+            	myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 2+4] = "not ok";
+            }
+
+            
+            myexcelApplication.ActiveWorkbook.Save();
+
+            myexcelWorkbook.Close();
+            myexcelApplication.Quit();
+            
+        }
+        
+        void writeToExcel4(string reponse)
+        {
+        	
+        	Excel.Application myexcelApplication = new Excel.Application();
+            Excel.Workbook myexcelWorkbook = myexcelApplication.Workbooks.Open(System.IO.Directory.GetCurrentDirectory()+@"\Bora Espace Vente Test Case.xlsx");
+
+            Excel.Worksheet myexcelWorksheet = myexcelWorkbook.Worksheets["UC Espace Vente Data"] as
+                Microsoft.Office.Interop.Excel.Worksheet;
+
+            
+            Excel.Range cell=(Excel.Range)myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 117+5];
+            if(reponse==(string)cell.Text){
+            	myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 2+5] = "ok";
+            }else{
+            	myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 2+5] = "not ok";
+            }
+
+            
+            myexcelApplication.ActiveWorkbook.Save();
+
+            myexcelWorkbook.Close();
+            myexcelApplication.Quit();
+            
+        }
+        
+        void writeToExcel5(string reponse)
+        {
+        	
+        	Excel.Application myexcelApplication = new Excel.Application();
+            Excel.Workbook myexcelWorkbook = myexcelApplication.Workbooks.Open(System.IO.Directory.GetCurrentDirectory()+@"\Bora Espace Vente Test Case.xlsx");
+
+            Excel.Worksheet myexcelWorksheet = myexcelWorkbook.Worksheets["UC Espace Vente Data"] as
+                Microsoft.Office.Interop.Excel.Worksheet;
+
+            
+            Excel.Range cell=(Excel.Range)myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 117+6];
+            if(reponse==(string)cell.Text){
+            	myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 2+6] = "ok";
+            }else{
+            	myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 2+6] = "not ok";
+            }
+
+            
+            myexcelApplication.ActiveWorkbook.Save();
+
+            myexcelWorkbook.Close();
+            myexcelApplication.Quit();
+            
+        }
+        
+        void writeToExcel6(string reponse)
+        {
+        	
+        	Excel.Application myexcelApplication = new Excel.Application();
+            Excel.Workbook myexcelWorkbook = myexcelApplication.Workbooks.Open(System.IO.Directory.GetCurrentDirectory()+@"\Bora Espace Vente Test Case.xlsx");
+
+            Excel.Worksheet myexcelWorksheet = myexcelWorkbook.Worksheets["UC Espace Vente Data"] as
+                Microsoft.Office.Interop.Excel.Worksheet;
+
+            
+            Excel.Range cell=(Excel.Range)myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 117+7];
+            if(reponse==(string)cell.Text){
+            	myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 2+7] = "ok";
+            }else{
+            	myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 2+7] = "not ok";
+            }
+
+            
+            myexcelApplication.ActiveWorkbook.Save();
+
+            myexcelWorkbook.Close();
+            myexcelApplication.Quit();
+            
+        }
+        
+        void writeToExcel7(string reponse)
+        {
+        	
+        	Excel.Application myexcelApplication = new Excel.Application();
+            Excel.Workbook myexcelWorkbook = myexcelApplication.Workbooks.Open(System.IO.Directory.GetCurrentDirectory()+@"\Bora Espace Vente Test Case.xlsx");
+
+            Excel.Worksheet myexcelWorksheet = myexcelWorkbook.Worksheets["UC Espace Vente Data"] as
+                Microsoft.Office.Interop.Excel.Worksheet;
+
+            
+            Excel.Range cell=(Excel.Range)myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 117+8];
+            if(reponse==(string)cell.Text){
+            	myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 2+8] = "ok";
+            }else{
+            	myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 2+8] = "not ok";
+            }
+
+            
+            myexcelApplication.ActiveWorkbook.Save();
+
+            myexcelWorkbook.Close();
+            myexcelApplication.Quit();
+            
+        }
+        
+        void writeToExcel8(string reponse)
+        {
+        	
+        	Excel.Application myexcelApplication = new Excel.Application();
+            Excel.Workbook myexcelWorkbook = myexcelApplication.Workbooks.Open(System.IO.Directory.GetCurrentDirectory()+@"\Bora Espace Vente Test Case.xlsx");
+
+            Excel.Worksheet myexcelWorksheet = myexcelWorkbook.Worksheets["UC Espace Vente Data"] as
+                Microsoft.Office.Interop.Excel.Worksheet;
+
+            
+            Excel.Range cell=(Excel.Range)myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 117+9];
+            if(reponse==(string)cell.Text){
+            	myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 2+9] = "ok";
+            }else{
+            	myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 2+9] = "not ok";
+            }
+
+            
+            myexcelApplication.ActiveWorkbook.Save();
+
+            myexcelWorkbook.Close();
+            myexcelApplication.Quit();
+            
+        }
+        
+        void writeToExcel9(string reponse)
+        {
+        	
+        	Excel.Application myexcelApplication = new Excel.Application();
+            Excel.Workbook myexcelWorkbook = myexcelApplication.Workbooks.Open(System.IO.Directory.GetCurrentDirectory()+@"\Bora Espace Vente Test Case.xlsx");
+
+            Excel.Worksheet myexcelWorksheet = myexcelWorkbook.Worksheets["UC Espace Vente Data"] as
+                Microsoft.Office.Interop.Excel.Worksheet;
+
+            
+            Excel.Range cell=(Excel.Range)myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 117+10];
+            if(reponse==(string)cell.Text){
+            	myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 2+10] = "ok";
+            }else{
+            	myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 2+10] = "not ok";
+            }
+
+            
+            myexcelApplication.ActiveWorkbook.Save();
+
+            myexcelWorkbook.Close();
+            myexcelApplication.Quit();
+            
+        }
+        
+        void writeToExcel10(string reponse)
+        {
+        	
+        	Excel.Application myexcelApplication = new Excel.Application();
+            Excel.Workbook myexcelWorkbook = myexcelApplication.Workbooks.Open(System.IO.Directory.GetCurrentDirectory()+@"\Bora Espace Vente Test Case.xlsx");
+
+            Excel.Worksheet myexcelWorksheet = myexcelWorkbook.Worksheets["UC Espace Vente Data"] as
+                Microsoft.Office.Interop.Excel.Worksheet;
+
+            
+            Excel.Range cell=(Excel.Range)myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 117+11];
+            if(reponse==(string)cell.Text){
+            	myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 2+11] = "ok";
+            }else{
+            	myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 2+11] = "not ok";
+            }
+
+            
+            myexcelApplication.ActiveWorkbook.Save();
+
+            myexcelWorkbook.Close();
+            myexcelApplication.Quit();
+            
+        }
+        
+        void writeToExcel11(string reponse)
+        {
+        	
+        	Excel.Application myexcelApplication = new Excel.Application();
+            Excel.Workbook myexcelWorkbook = myexcelApplication.Workbooks.Open(System.IO.Directory.GetCurrentDirectory()+@"\Bora Espace Vente Test Case.xlsx");
+
+            Excel.Worksheet myexcelWorksheet = myexcelWorkbook.Worksheets["UC Espace Vente Data"] as
+                Microsoft.Office.Interop.Excel.Worksheet;
+
+            
+            Excel.Range cell=(Excel.Range)myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 117+12];
+            if(reponse==(string)cell.Text){
+            	myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 2+12] = "ok";
+            }else{
+            	myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 2+12] = "not ok";
+            }
+
+            
+            myexcelApplication.ActiveWorkbook.Save();
+
+            myexcelWorkbook.Close();
+            myexcelApplication.Quit();
+            
+        }
+
+        public void Validate_VeuillezSelectionnerLeTypeDeDocumen(RepoItemInfo textInfo)
+        {
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Veuillez sélectionner le Type de Document.') on item 'textInfo'.", textInfo);
+            Validate.AttributeEqual(textInfo, "Text", "Veuillez sélectionner le Type de Document.");
+            string reponse=repo.BoraMessageBox.VeuillezSelectionnerLeTypeDeDocumen.TextValue;
+            writeToExcel(reponse);
+        }
+
+        public void Validate_VeuillezSaisirLaDateDeTransaction(RepoItemInfo textInfo)
+        {
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Veuillez saisir la Date de Transaction.') on item 'textInfo'.", textInfo);
+            Validate.AttributeEqual(textInfo, "Text", "Veuillez saisir la Date de Transaction.");
+            string reponse=repo.BoraMessageBox.VeuillezSaisirLaDateDeTransaction.TextValue;
+            writeToExcel2(reponse);
+        }
+
+        public void Validate_VeuillezRenseignerLeNomDuVoyageur(RepoItemInfo textInfo)
+        {
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Veuillez renseigner le Nom du Voyageur.') on item 'textInfo'.", textInfo);
+            Validate.AttributeEqual(textInfo, "Text", "Veuillez renseigner le Nom du Voyageur.");
+            string reponse=repo.BoraMessageBox.VeuillezRenseignerLeNomDuVoyageur.TextValue;
+            writeToExcel3(reponse);
+        }
+
+        public void Validate_VeuillezRenseignerLaClasseDeReserva(RepoItemInfo textInfo)
+        {
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Veuillez renseigner la Classe de Réservation.') on item 'textInfo'.", textInfo);
+            Validate.AttributeEqual(textInfo, "Text", "Veuillez renseigner la Classe de Réservation.");
+            string reponse=repo.BoraMessageBox.VeuillezRenseignerLaClasseDeReserva.TextValue;
+            writeToExcel4(reponse);
+        }
+
+        public void Validate_VeuilleSaisirLaDateDepart(RepoItemInfo textInfo)
+        {
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Veuille saisir la Date Départ.') on item 'textInfo'.", textInfo);
+            Validate.AttributeEqual(textInfo, "Text", "Veuille saisir la Date Départ.");
+            string reponse=repo.BoraMessageBox.VeuilleSaisirLaDateDepart.TextValue;
+            writeToExcel5(reponse);
+        }
+
+        public void Validate_VeuilleSaisirLaDateRetour(RepoItemInfo textInfo)
+        {
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Veuille saisir la Date Retour.') on item 'textInfo'.", textInfo);
+            Validate.AttributeEqual(textInfo, "Text", "Veuille saisir la Date Retour.");
+            string reponse=repo.BoraMessageBox.VeuilleSaisirLaDateRetour.TextValue;
+            writeToExcel6(reponse);
+        }
+
+        public void Validate_VeuillezSaisirLeNumeroDuBillet(RepoItemInfo textInfo)
+        {
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Veuillez saisir le Numéro du Billet .') on item 'textInfo'.", textInfo);
+            Validate.AttributeEqual(textInfo, "Text", "Veuillez saisir le Numéro du Billet .");
+            string reponse=repo.BoraMessageBox.VeuillezSaisirLeNumeroDuBillet.TextValue;
+            writeToExcel7(reponse);
+        }
+
+        public void Validate_VeuillezSaisirLItineraire(RepoItemInfo textInfo)
+        {
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Veuillez saisir l'Itinéraire.') on item 'textInfo'.", textInfo);
+            Validate.AttributeEqual(textInfo, "Text", "Veuillez saisir l'Itinéraire.");
+            string reponse=repo.BoraMessageBox.VeuillezSaisirLItineraire.TextValue;
+            writeToExcel8(reponse);
+        }
+
+        public void Validate_VeuillezSelectionnerLaDestination(RepoItemInfo textInfo)
+        {
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Veuillez sélectionner la Destination.') on item 'textInfo'.", textInfo);
+            Validate.AttributeEqual(textInfo, "Text", "Veuillez sélectionner la Destination.");
+            string reponse=repo.BoraMessageBox.VeuillezSelectionnerLaDestination.TextValue;
+            writeToExcel9(reponse);
+        }
+
+        public void Validate_VeuillezSelectionnerLeTicketingAgent(RepoItemInfo textInfo)
+        {
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Veuillez sélectionner le Ticketing Agent.') on item 'textInfo'.", textInfo);
+            Validate.AttributeEqual(textInfo, "Text", "Veuillez sélectionner le Ticketing Agent.");
+            string reponse=repo.BoraMessageBox.VeuillezSelectionnerLeTicketingAgent.TextValue;
+            writeToExcel10(reponse);
+        }
+
+        public void Validate_AjoutImpossibleLeNetAFacturerEst(RepoItemInfo textInfo)
+        {
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Ajout impossible: le Net à facturer est différent du cumul CASH + CHEQUE + NONREF.') on item 'textInfo'.", textInfo);
+            Validate.AttributeEqual(textInfo, "Text", "Ajout impossible: le Net à facturer est différent du cumul CASH + CHEQUE + NONREF.");
+            string reponse=repo.BoraMessageBox.AjoutImpossibleLeNetAFacturerEst.TextValue;
+            writeToExcel11(reponse);
         }
 
     }

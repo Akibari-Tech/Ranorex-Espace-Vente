@@ -2380,6 +2380,16 @@ XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
 			searchtimeout="30000ms">
 				/form[@controlname='BoraMessageBox']/?/?/text[@accessiblename&gt;'Ajout impossible: le Net &#224;']
 			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="d39a2ce7-03e6-4e35-becc-1530df1492a5"
+			name="VeuillezRenseignerLeNomDuVoyageur"
+			refimgid="c95b53a6-b96e-405a-9d72-1dd7c84ebb46"
+			refpath="/form[@controlname='BoraMessageBox']/element[@controlname='lbl_text']/text[@accessiblename='Veuillez renseigner le Nom du Voyageur.']"
+			searchtimeout="30000ms">
+				/form[@controlname='BoraMessageBox']/?/?/text[@accessiblename&gt;'Veuillez renseigner le Nom']
+			</item>
 			<basepath>
 				/form[@controlname='BoraMessageBox']
 			</basepath>

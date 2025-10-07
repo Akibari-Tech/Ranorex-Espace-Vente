@@ -6133,6 +6133,7 @@ namespace BoraTestEspaceVenteDDT
             RepoItemInfo _veuillezselectionnerladestinationInfo;
             RepoItemInfo _veuillezselectionnerleticketingagentInfo;
             RepoItemInfo _ajoutimpossiblelenetafacturerestInfo;
+            RepoItemInfo _veuillezrenseignerlenomduvoyageurInfo;
 
             /// <summary>
             /// Creates a new BoraMessageBox  folder.
@@ -6155,6 +6156,7 @@ namespace BoraTestEspaceVenteDDT
                 _veuillezselectionnerladestinationInfo = new RepoItemInfo(this, "VeuillezSelectionnerLaDestination", "?/?/text[@accessiblename>'Veuillez sélectionner la']", 30000, null, "b83e7c7c-dd27-4b76-9d59-d968aaad58d9");
                 _veuillezselectionnerleticketingagentInfo = new RepoItemInfo(this, "VeuillezSelectionnerLeTicketingAgent", "?/?/text[@accessiblename>'Veuillez sélectionner le Ticketing']", 30000, null, "ba850db9-cfd7-4699-81e0-1111c747d578");
                 _ajoutimpossiblelenetafacturerestInfo = new RepoItemInfo(this, "AjoutImpossibleLeNetAFacturerEst", "?/?/text[@accessiblename>'Ajout impossible: le Net à']", 30000, null, "e9f69184-6655-4179-b972-9232f0868e43");
+                _veuillezrenseignerlenomduvoyageurInfo = new RepoItemInfo(this, "VeuillezRenseignerLeNomDuVoyageur", "?/?/text[@accessiblename>'Veuillez renseigner le Nom']", 30000, null, "d39a2ce7-03e6-4e35-becc-1530df1492a5");
             }
 
             /// <summary>
@@ -6538,6 +6540,30 @@ namespace BoraTestEspaceVenteDDT
                 get
                 {
                     return _ajoutimpossiblelenetafacturerestInfo;
+                }
+            }
+
+            /// <summary>
+            /// The VeuillezRenseignerLeNomDuVoyageur item.
+            /// </summary>
+            [RepositoryItem("d39a2ce7-03e6-4e35-becc-1530df1492a5")]
+            public virtual Ranorex.Text VeuillezRenseignerLeNomDuVoyageur
+            {
+                get
+                {
+                    return _veuillezrenseignerlenomduvoyageurInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The VeuillezRenseignerLeNomDuVoyageur item info.
+            /// </summary>
+            [RepositoryItemInfo("d39a2ce7-03e6-4e35-becc-1530df1492a5")]
+            public virtual RepoItemInfo VeuillezRenseignerLeNomDuVoyageurInfo
+            {
+                get
+                {
+                    return _veuillezrenseignerlenomduvoyageurInfo;
                 }
             }
         }

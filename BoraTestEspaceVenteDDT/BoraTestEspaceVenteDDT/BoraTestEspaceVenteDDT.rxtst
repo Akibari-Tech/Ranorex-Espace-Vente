@@ -7,14 +7,14 @@
 			name="createNotes"
 			ref="efd2456c-b7a9-46de-a65c-07dae269e362"
 			type="Recording">
-				<missingdatabinding>
+				<databinding>
 					<var
-					dataname="val87"
+					dataname="val48"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="52e8beeb-b1fb-4764-ba94-be37013b88e4"
 					variablename="note">
 					</var>
-				</missingdatabinding>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="1807ff47-36fd-4078-b114-f00a18ffb3b4"
@@ -35,35 +35,103 @@
 			name="createNDC2"
 			ref="e2dded0c-7521-4caf-888a-ca68f72fbb39"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="val59"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="f45e6ecd-71b2-4002-8c0f-fd78ffaf3942"
+					variablename="ndcContent">
+					</var>
+					<var
+					dataname="val60"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="0c25bdbf-598a-445b-abb7-73df6e7e94e4"
+					variablename="reportingIndicator">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="2a7606ab-c4b2-4f84-bf4d-d2c8ba9dc590"
 			name="createMarge3"
 			ref="97c43a39-e8c7-4438-9bcc-73625999d036"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="val95"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="bf7a3842-5865-440e-9247-916c771db243"
+					variablename="commissionPourcent">
+					</var>
+					<var
+					dataname="val96"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="29c14e42-5713-44b7-b90a-e843c632a260"
+					variablename="commission">
+					</var>
+					<var
+					dataname="val97"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="0e99a8d4-4344-4b48-9307-4f5fd31f718b"
+					variablename="commissionSurPenalite">
+					</var>
+					<var
+					dataname="val98"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="007fd82a-4c41-4d70-8033-677b6d9043a4"
+					variablename="bookingAgent">
+					</var>
+					<var
+					dataname="val99"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="95e6a3d5-0c08-4b11-8bb9-6675228f5952"
+					variablename="ticketingAgent">
+					</var>
+					<var
+					dataname="val100"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="794a3192-92e3-4a7d-8601-5e8ba20da556"
+					variablename="demarcheur">
+					</var>
+					<var
+					dataname="val101"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="3f20ef2b-a122-47cc-9358-02d507153862"
+					variablename="comAgvPartenairePourcent">
+					</var>
+					<var
+					dataname="val102"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="6fd6b832-4fae-49ee-a185-e1ef3e7321e4"
+					variablename="comAgvPartenaire">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="2dfe6954-4a4e-440f-9d1e-bb07297e0e15"
 			name="createRemarques"
 			ref="83a58307-cbab-437f-a73a-7c9a143ee080"
 			type="Recording">
-				<missingdatabinding>
+				<databinding>
 					<var
-					dataname="val85"
+					dataname="val46"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="49dd0492-19cd-4d5f-b773-6f3805f7b72e"
 					variablename="voyageur">
 					</var>
 					<var
-					dataname="val86"
+					dataname="val47"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="9bb8d136-1486-41a5-a37b-fcba48be91ea"
 					variablename="autres">
 					</var>
-				</missingdatabinding>
+				</databinding>
 			</testmodule>
 			<testcase
+			datarangeactive="True"
+			datasource="BoraEspaceVenteTestCase"
 			id="2ee21d72-0e80-493a-8e2a-9ec24a28efd9"
+			maxrange="6"
+			minrange="6"
 			name="CréationChampsObligatoiresNonRemplis">
 			</testcase>
 			<testmodule
@@ -139,6 +207,14 @@
 			name="createTarifs2"
 			ref="84fc4894-669d-403f-8704-2ed07057155e"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="val21"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="54ef5a7c-c8b0-4873-a020-3ffeebfb858a"
+					variablename="reasonCode">
+					</var>
+				</databinding>
 			</testmodule>
 			<testcase
 			datarangeactive="True"
@@ -153,44 +229,44 @@
 			name="createFees"
 			ref="e5218156-cfba-4903-939b-addc34e71497"
 			type="Recording">
-				<missingdatabinding>
+				<databinding>
 					<var
-					dataname="val47"
+					dataname="val89"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="46e5cdb0-efe8-4046-8468-489f7774b1b3"
 					variablename="fraisDivers1">
 					</var>
 					<var
-					dataname="val48"
+					dataname="val90"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="158a433a-5c4f-4af1-a125-fd2ce7385c39"
 					variablename="fraisDivers2">
 					</var>
 					<var
-					dataname="val49"
+					dataname="val91"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="d332b058-b0bb-4a12-a786-cdedb230ee07"
 					variablename="fraisDivers3">
 					</var>
 					<var
-					dataname="val50"
+					dataname="val92"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="027f10b2-c849-4709-be10-3e0d1a6fe917"
 					variablename="fraisDivers4">
 					</var>
 					<var
-					dataname="val51"
+					dataname="val93"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="09547447-e768-4e23-812b-995e29395f4b"
 					variablename="fraisDivers5">
 					</var>
 					<var
-					dataname="val52"
+					dataname="val94"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="a9d30db5-6501-4974-8671-340c20005aa1"
 					variablename="fraisMasques">
 					</var>
-				</missingdatabinding>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="58afa6bf-78d9-462a-8c73-2c659bd1c1f9"
@@ -203,6 +279,86 @@
 			name="createInfosGenerales4"
 			ref="a522b3ac-ab23-46f9-8e46-8891defae672"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="test case"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="f5fac3d8-fb24-40bd-bde4-7694e0afc7a5"
+					variablename="id">
+					</var>
+					<var
+					dataname="val104"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="832a1449-8824-44fd-bb66-6bbb6466eecc"
+					variablename="dateDeTransaction">
+					</var>
+					<var
+					dataname="val103"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="1164f69a-9d74-4f4b-8864-0f6c2fc34b96"
+					variablename="typeDocument2">
+					</var>
+					<var
+					dataname="val105"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="bbe41dd2-3b2a-4157-8a41-0059adea9406"
+					variablename="nomClient2">
+					</var>
+					<var
+					dataname="val106"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="f9c048a5-7cdf-4c8f-86c1-836761680565"
+					variablename="nomVoyageur">
+					</var>
+					<var
+					dataname="val107"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="61b48ddd-98bf-4f26-bf62-cb1a174cdc87"
+					variablename="classeResa">
+					</var>
+					<var
+					dataname="val108"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="5faa1c77-5ae1-4ee3-a9f8-41578df2e093"
+					variablename="depart">
+					</var>
+					<var
+					dataname="val109"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="3947c334-7dc3-4300-8d4b-851cb6d121d2"
+					variablename="retour">
+					</var>
+					<var
+					dataname="val110"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="e3c44f71-6a2d-4730-837d-622230caf790"
+					variablename="numeroBillet">
+					</var>
+					<var
+					dataname="val111"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="af8e8406-69c6-4dc2-aab1-1db6ca672516"
+					variablename="itineraire">
+					</var>
+					<var
+					dataname="val112"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="13b82235-a865-4290-9695-2621351de07f"
+					variablename="destination">
+					</var>
+					<var
+					dataname="val113"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="c4052a8d-bde3-47a5-9ecd-63abfcd2860b"
+					variablename="ticketingAgent2">
+					</var>
+					<var
+					dataname="val114"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="856109e1-7426-4e84-9426-638d00287d5d"
+					variablename="cash2">
+					</var>
+				</databinding>
 			</testmodule>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
@@ -430,158 +586,280 @@
 			name="createItineraire"
 			ref="dd7fc67c-25ee-47c0-b884-aa890993eace"
 			type="Recording">
-				<missingdatabinding>
+				<databinding>
 					<var
-					dataname="val61"
+					dataname="val22"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="774f7c48-fdf4-453d-9ac4-0c3ef794c0c7"
 					variablename="villeDepart">
 					</var>
 					<var
-					dataname="val62"
+					dataname="val23"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="1d1cc8f8-64d0-4b3b-ba99-be998ec7c7cb"
 					variablename="dateDepart">
 					</var>
 					<var
-					dataname="val63"
+					dataname="val24"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="7b515171-aaf0-4ed6-bbe5-d0fb0e84a4c9"
 					variablename="heureDepart">
 					</var>
 					<var
-					dataname="val64"
+					dataname="val25"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="2599e24b-f5a4-4f79-8bb6-38997fd9a070"
 					variablename="villeArrivee">
 					</var>
 					<var
-					dataname="val65"
+					dataname="val26"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="55b18eaf-1746-40d4-90df-f25a0a540f68"
 					variablename="dateArrivee">
 					</var>
 					<var
-					dataname="val66"
+					dataname="val27"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="147866f1-0924-457a-8ff0-1ecd950effa5"
 					variablename="heureArrivee">
 					</var>
 					<var
-					dataname="val67"
+					dataname="val28"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="901e3ac0-b428-42bb-a7dd-e8c52e78fcd9"
 					variablename="Cie">
 					</var>
 					<var
-					dataname="val68"
+					dataname="val29"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="2487af2f-c2d7-4636-bb0f-7695db41f5a5"
 					variablename="numeroVol">
 					</var>
 					<var
-					dataname="val69"
+					dataname="val30"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="2d514284-b32e-45b8-a2ed-d5a50e8343b1"
 					variablename="terminalDepart">
 					</var>
 					<var
-					dataname="val70"
+					dataname="val31"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="545156e0-02f1-4169-9003-5a4d610eae42"
 					variablename="checkin">
 					</var>
 					<var
-					dataname="val71"
+					dataname="val32"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="8a4977d6-1f70-4621-998e-5ba6bf35d76d"
 					variablename="stops">
 					</var>
 					<var
-					dataname="val72"
+					dataname="val33"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="e0c21e81-76f9-4bad-adcb-c18dd619566b"
 					variablename="classe">
 					</var>
 					<var
-					dataname="val73"
+					dataname="val34"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="eb3ec6b1-a81b-479e-ba53-47b101233ac2"
 					variablename="equipement">
 					</var>
 					<var
-					dataname="val74"
+					dataname="val35"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="8fb8b957-31f1-4931-a7d5-1254eacdfa26"
 					variablename="terminalArrivee">
 					</var>
 					<var
-					dataname="val75"
+					dataname="val36"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="a4232742-4f91-4ba3-9228-55a46d8d4be0"
 					variablename="dureeVol">
 					</var>
 					<var
-					dataname="val76"
+					dataname="val37"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="80c5e8b0-af90-4985-b899-29356aa8c59e"
 					variablename="mileage">
 					</var>
 					<var
-					dataname="val77"
+					dataname="val38"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="9fc33428-5683-47c2-8a1a-1ef0b91a9961"
 					variablename="repas">
 					</var>
 					<var
-					dataname="val78"
+					dataname="val39"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="dd2763d6-2c5a-45bc-b405-a49c95126959"
 					variablename="franchise">
 					</var>
 					<var
-					dataname="val79"
+					dataname="val40"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="ed859f6b-58c3-42e6-9258-89ce39190ea1"
 					variablename="codeShare">
 					</var>
 					<var
-					dataname="val80"
+					dataname="val41"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="7475a713-3ec0-443b-a5eb-8406d3b5f4e1"
 					variablename="fareBasis">
 					</var>
 					<var
-					dataname="val81"
+					dataname="val42"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="647bc54e-7946-456c-a471-bcbcebf6196e"
 					variablename="legPrice">
 					</var>
 					<var
-					dataname="val82"
+					dataname="val43"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="f00c8510-ab10-4522-af26-2cfd89966f6f"
 					variablename="escale">
 					</var>
 					<var
-					dataname="val83"
+					dataname="val44"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="27ecaf70-5e4d-4996-a1d6-5dd2830488e2"
 					variablename="fumeur">
 					</var>
 					<var
-					dataname="val84"
+					dataname="val45"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="203183b0-f5ea-4a10-8f28-2ac63bced043"
 					variablename="distanceMethod">
 					</var>
-				</missingdatabinding>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="c266c63a-069f-46a6-8ff2-e28419365de8"
 			name="createTarifs3"
 			ref="fb21daa7-d745-476b-bfe5-d204229440c7"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="val69"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="3799edea-fecf-4c87-8bb8-68f77bd66919"
+					variablename="devise">
+					</var>
+					<var
+					dataname="val70"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="cf70c30f-07d6-4358-a4c5-78490fcfc5ec"
+					variablename="tauxOfficiel">
+					</var>
+					<var
+					dataname="val71"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="3c33c2d8-11d2-48fc-909b-5ed5974045ce"
+					variablename="tauxAchat">
+					</var>
+					<var
+					dataname="val72"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="dea4fec1-8910-4c1d-a9f1-398c89968e4d"
+					variablename="tauxVente">
+					</var>
+					<var
+					dataname="val73"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="2b7c466c-d559-478a-bb18-d468b76e8d9f"
+					variablename="tarifPublie">
+					</var>
+					<var
+					dataname="val74"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="6292aaee-81b5-49fe-a921-2cee8c5e86cc"
+					variablename="tarifNegocie">
+					</var>
+					<var
+					dataname="val75"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="f0171a03-a191-4db2-b41e-10d0a631ffa4"
+					variablename="penalite">
+					</var>
+					<var
+					dataname="val76"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="e969ad61-4b21-43b7-8d29-0b16b0bffdce"
+					variablename="code">
+					</var>
+					<var
+					dataname="val77"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="0f7f7bee-b240-48b9-a4a7-8f798c0c43ce"
+					variablename="taxe">
+					</var>
+					<var
+					dataname="val78"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="4cef70e6-f2ff-4fae-852a-3c9f3f39711a"
+					variablename="codeTaxe">
+					</var>
+					<var
+					dataname="val79"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="de0bb4e5-fe4b-4090-a1e9-f38b612c0b3c"
+					variablename="remiseAuClientPourcent">
+					</var>
+					<var
+					dataname="val80"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="1ae29cae-da26-4d26-97da-6808c7f0031b"
+					variablename="remiseAuClient">
+					</var>
+					<var
+					dataname="val81"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="17ac34af-4d82-41df-abe4-e2176d178fa5"
+					variablename="tarifMaximal">
+					</var>
+					<var
+					dataname="val82"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="7ffc1ec4-75a5-4d63-806d-66c2dcf9931a"
+					variablename="tarifMinimal">
+					</var>
+					<var
+					dataname="val83"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="0ee3b10e-43ba-4fe6-8ec6-c7f4b1045e2f"
+					variablename="cash">
+					</var>
+					<var
+					dataname="val84"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="fdfb6a23-a4b6-47ff-b049-e62f3be3ccff"
+					variablename="numeroCheque">
+					</var>
+					<var
+					dataname="val85"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="c4b44124-bf9f-4350-b1fa-30e152b03980"
+					variablename="cheque">
+					</var>
+					<var
+					dataname="val86"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="da04c165-2068-4fce-88f5-502b9bef3245"
+					variablename="nonRef">
+					</var>
+					<var
+					dataname="val87"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="079cb611-089a-4ae8-8ca8-87bc6d6575ed"
+					variablename="numeroCC">
+					</var>
+					<var
+					dataname="val88"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="c84edf7a-c0c4-40a7-b235-07465434d4a2"
+					variablename="carteDeCredit">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="c34c06a0-021b-4611-9030-1cc5e944844f"
@@ -858,6 +1136,62 @@
 			name="createInfosGenerales3"
 			ref="f7578754-fd9b-4f4e-96e2-1566a9934db7"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="test case"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="e8974a77-488b-415d-93fc-cd93314eb4b2"
+					variablename="id">
+					</var>
+					<var
+					dataname="val61"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="429ff8ea-ae48-439e-a084-a0f00570e7a8"
+					variablename="nomFournisseur">
+					</var>
+					<var
+					dataname="val62"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="b8e792d7-873a-497f-9146-818879aa1e85"
+					variablename="nomClient">
+					</var>
+					<var
+					dataname="val63"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="8be69e47-e06f-4ff6-be34-199126f3385a"
+					variablename="etk">
+					</var>
+					<var
+					dataname="val64"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="404d2180-f25b-4325-8cc4-feaa0da92c56"
+					variablename="conjunctionTicket">
+					</var>
+					<var
+					dataname="val65"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="788eb9b6-e959-451f-a1ce-ab0dd5e8e58e"
+					variablename="ex2">
+					</var>
+					<var
+					dataname="val66"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="897bba0d-0e71-42b2-b658-d3710b97851c"
+					variablename="ex3">
+					</var>
+					<var
+					dataname="val67"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="2985a3f8-3eea-407b-9f64-b44ef12b99d5"
+					variablename="docEchanges">
+					</var>
+					<var
+					dataname="val68"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="64c5e4cb-9d5f-4a17-9d66-b1a0f505123e"
+					variablename="observations">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="e16e19c1-e06e-4a80-8366-ea07c83d15c5"
@@ -1045,74 +1379,124 @@
 			name="createInfosGenerales2"
 			ref="983bc5bb-3a8f-4a3d-815d-c02c150701d5"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="val13"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="7cdd3175-bee1-4cd9-8d8a-b0d3dd2ed47e"
+					variablename="pointDeVente">
+					</var>
+					<var
+					dataname="val14"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="04f1e74b-c091-4b5f-9d3e-29f1257275b2"
+					variablename="mode">
+					</var>
+					<var
+					dataname="val15"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="5366146b-93e4-41c9-9f3b-d3be42cc08d9"
+					variablename="transaction">
+					</var>
+					<var
+					dataname="val16"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="9ceb91f0-76ba-44d9-84f4-17e7b60436ac"
+					variablename="dateReservation">
+					</var>
+					<var
+					dataname="val17"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="483c50a7-15d6-48a8-9454-8d58d17f8a6c"
+					variablename="echeanceFournisseur">
+					</var>
+					<var
+					dataname="val18"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="1479282f-7c74-49cb-ba7c-879010a49352"
+					variablename="gds">
+					</var>
+					<var
+					dataname="val19"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="7588c744-65b0-4eef-8966-34b46912bee9"
+					variablename="recordLocator">
+					</var>
+					<var
+					dataname="val20"
+					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
+					variableid="b638f75f-ed5f-436d-a61d-76705fa94a34"
+					variablename="numeroDossier">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="ef3322f5-9406-417a-8809-dac552c1730f"
 			name="createUDID"
 			ref="445fe87d-9780-4de9-85ef-7956dedec738"
 			type="Recording">
-				<missingdatabinding>
+				<databinding>
 					<var
-					dataname="val88"
+					dataname="val49"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="1a41a0d8-5664-4744-89cc-f7c4c12e348a"
 					variablename="champ1">
 					</var>
 					<var
-					dataname="val89"
+					dataname="val50"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="730bbd20-193e-4c0e-b22a-dcaeb2cc0507"
 					variablename="champ2">
 					</var>
 					<var
-					dataname="val90"
+					dataname="val51"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="fb441671-9a97-44c4-a7ba-c58d9bab9b67"
 					variablename="champ3">
 					</var>
 					<var
-					dataname="val91"
+					dataname="val52"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="5302e43e-d5e3-462a-bbed-11a714d6cceb"
 					variablename="champ4">
 					</var>
 					<var
-					dataname="val92"
+					dataname="val53"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="a4d358b9-a0c5-4adb-b6cf-640e28fa211a"
 					variablename="champ5">
 					</var>
 					<var
-					dataname="val93"
+					dataname="val54"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="99491bd5-c17e-4d7a-9004-8510e8fe1b6d"
 					variablename="champ6">
 					</var>
 					<var
-					dataname="val94"
+					dataname="val55"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="3995cf5a-bdd5-4450-9da9-ea0bb64abd33"
 					variablename="champ7">
 					</var>
 					<var
-					dataname="val95"
+					dataname="val56"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="333e7ad7-a335-475c-8901-a89c388d1515"
 					variablename="champ8">
 					</var>
 					<var
-					dataname="val96"
+					dataname="val57"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="438a2227-2b77-4f44-bbda-ee686ecee608"
 					variablename="champ9">
 					</var>
 					<var
-					dataname="val97"
+					dataname="val58"
 					datasourceid="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 					variableid="d967c176-d972-4fb5-98ea-e6b6ef97546c"
 					variablename="champ10">
 					</var>
-				</missingdatabinding>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="f55d1ae9-03da-42bf-a703-74fa0e729cc3"
@@ -1276,7 +1660,7 @@
 		id="d87067db-ac76-4f87-a0d7-f6762b14bb27"
 		includefile="Unchecked"
 		labelcolumn="test case"
-		lastknownrowcount="4"
+		lastknownrowcount="7"
 		name="BoraEspaceVenteTestCase"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="UC Espace Vente Data"
@@ -1618,6 +2002,57 @@
 				<column>
 					val110
 				</column>
+				<column>
+					val111
+				</column>
+				<column>
+					val112
+				</column>
+				<column>
+					val113
+				</column>
+				<column>
+					val114
+				</column>
+				<column>
+					val115
+				</column>
+				<column>
+					val116
+				</column>
+				<column>
+					val117
+				</column>
+				<column>
+					val118
+				</column>
+				<column>
+					val119
+				</column>
+				<column>
+					val120
+				</column>
+				<column>
+					val121
+				</column>
+				<column>
+					val122
+				</column>
+				<column>
+					val123
+				</column>
+				<column>
+					val124
+				</column>
+				<column>
+					val125
+				</column>
+				<column>
+					val126
+				</column>
+				<column>
+					val127
+				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
 			</maskedcolumns>
@@ -1628,7 +2063,7 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
-			id="539094c1-f344-47df-8639-ad891d1d6d6e">
+			id="2ee21d72-0e80-493a-8e2a-9ec24a28efd9">
 			</testcontainer>
 			<testcontainer
 			id="ebfd17d8-d3ac-4c5a-b652-c18169c71886">

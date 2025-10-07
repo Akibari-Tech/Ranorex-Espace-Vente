@@ -1,13 +1,22 @@
 ﻿<Properties>
-  <Array name="active" />
-  <Array name="bookmarks">
-    <Element value="Breakpoint|C:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createNDC.UserCode.cs|52|13|True|Break||" />
+  <Array name="active">
+    <Element value="BoraTestEspaceVenteDDT.rxtst" />
   </Array>
+  <Array name="bookmarks" />
   <Array name="files">
     <Element value="BoraTestEspaceVenteDDT.rxtst" />
     <Element value="createInfosGenerales4.rxrec" />
+    <Element value="createInfosGenerales4.UserCode.cs" />
+    <Element value="createItineraire.rxrec" />
   </Array>
   <Properties name="projectSavedData">
-    <Array name="recentusercodeselections" />
+    <Array name="recentusercodeselections">
+      <Element value="BoraTestEspaceVenteDDT.createInfosGenerales4.Validate_AjoutImpossibleLeNetAFacturerEst(RepoItemInfo textInfo)" />
+      <Element value="BoraTestEspaceVenteDDT.createInfosGenerales4.Validate_VeuillezSelectionnerLeTicketingAgent(RepoItemInfo textInfo)" />
+      <Element value="BoraTestEspaceVenteDDT.createInfosGenerales4.Validate_VeuillezSaisirLItineraire(RepoItemInfo textInfo)" />
+      <Element value="BoraTestEspaceVenteDDT.createInfosGenerales4.Validate_VeuillezSaisirLeNumeroDuBillet(RepoItemInfo textInfo)" />
+      <Element value="BoraTestEspaceVenteDDT.createInfosGenerales4.Validate_VeuilleSaisirLaDateRetour(RepoItemInfo textInfo)" />
+      <Element value="BoraTestEspaceVenteDDT.createInfosGenerales4.Validate_VeuilleSaisirLaDateDepart(RepoItemInfo textInfo)" />
+    </Array>
   </Properties>
 </Properties>

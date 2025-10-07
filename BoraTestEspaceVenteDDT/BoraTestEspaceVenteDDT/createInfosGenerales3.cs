@@ -48,6 +48,7 @@ namespace BoraTestEspaceVenteDDT
             ex3 = "{NumPad1}";
             observations = "{NumPad1}";
             docEchanges = "{NumPad1}";
+            id = "";
         }
 
         /// <summary>
@@ -144,6 +145,18 @@ namespace BoraTestEspaceVenteDDT
             set { _docEchanges = value; }
         }
 
+        string _id;
+
+        /// <summary>
+        /// Gets or sets the value of variable id.
+        /// </summary>
+        [TestVariable("e8974a77-488b-415d-93fc-cd93314eb4b2")]
+        public string id
+        {
+            get { return _id; }
+            set { _id = value; }
+        }
+
         /// <summary>
         /// Gets or sets the value of variable etk.
         /// </summary>
@@ -192,9 +205,8 @@ namespace BoraTestEspaceVenteDDT
             repo.Bora.ScrollingRegion.Click("165;7");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Veuillez sélectionner le Produit.') on item 'BoraMessageBox.VeuillezSelectionnerLeProduit'.", repo.BoraMessageBox.VeuillezSelectionnerLeProduitInfo, new RecordItemIndex(3));
-            Validate.AttributeEqual(repo.BoraMessageBox.VeuillezSelectionnerLeProduitInfo, "Text", "Veuillez sélectionner le Produit.");
-            Delay.Milliseconds(100);
+            Validate_VeuillezSelectionnerLeProduit(repo.BoraMessageBox.VeuillezSelectionnerLeProduitInfo);
+            Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BoraMessageBox.ButtonOk' at 40;8.", repo.BoraMessageBox.ButtonOkInfo, new RecordItemIndex(4));
             repo.BoraMessageBox.ButtonOk.Click("40;8");
@@ -208,9 +220,8 @@ namespace BoraTestEspaceVenteDDT
             repo.FrmSglBooking.BtnOk.Click("19;13");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Veuillez sélectionner le Fournisseur.') on item 'BoraMessageBox.VeuillezSelectionnerLeProduit'.", repo.BoraMessageBox.VeuillezSelectionnerLeProduitInfo, new RecordItemIndex(7));
-            Validate.AttributeEqual(repo.BoraMessageBox.VeuillezSelectionnerLeProduitInfo, "Text", "Veuillez sélectionner le Fournisseur.");
-            Delay.Milliseconds(100);
+            Validate_VeuillezSelectionnerLeProduit2(repo.BoraMessageBox.VeuillezSelectionnerLeProduitInfo);
+            Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BoraMessageBox.ButtonOk' at 44;8.", repo.BoraMessageBox.ButtonOkInfo, new RecordItemIndex(8));
             repo.BoraMessageBox.ButtonOk.Click("44;8");

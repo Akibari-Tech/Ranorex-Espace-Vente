@@ -2589,6 +2589,16 @@
             The AjoutImpossibleLeNetAFacturerEst item info.
             </summary>
         </member>
+        <member name="P:BoraTestEspaceVenteDDT.BoraTestEspaceVenteDDTRepositoryFolders.BoraMessageBoxAppFolder.VeuillezRenseignerLeNomDuVoyageur">
+            <summary>
+            The VeuillezRenseignerLeNomDuVoyageur item.
+            </summary>
+        </member>
+        <member name="P:BoraTestEspaceVenteDDT.BoraTestEspaceVenteDDTRepositoryFolders.BoraMessageBoxAppFolder.VeuillezRenseignerLeNomDuVoyageurInfo">
+            <summary>
+            The VeuillezRenseignerLeNomDuVoyageur item info.
+            </summary>
+        </member>
         <member name="T:BoraTestEspaceVenteDDT.CloseAUT">
              <summary>
             The CloseAUT recording.
@@ -3136,6 +3146,11 @@
             Gets or sets the value of variable docEchanges.
             </summary>
         </member>
+        <member name="P:BoraTestEspaceVenteDDT.createInfosGenerales3.id">
+            <summary>
+            Gets or sets the value of variable id.
+            </summary>
+        </member>
         <member name="P:BoraTestEspaceVenteDDT.createInfosGenerales3.etk">
             <summary>
             Gets or sets the value of variable etk.
@@ -3223,6 +3238,11 @@
         <member name="P:BoraTestEspaceVenteDDT.createInfosGenerales4.cash2">
             <summary>
             Gets or sets the value of variable cash2.
+            </summary>
+        </member>
+        <member name="P:BoraTestEspaceVenteDDT.createInfosGenerales4.id">
+            <summary>
+            Gets or sets the value of variable id.
             </summary>
         </member>
         <member name="P:BoraTestEspaceVenteDDT.createInfosGenerales4.typeDocument2">

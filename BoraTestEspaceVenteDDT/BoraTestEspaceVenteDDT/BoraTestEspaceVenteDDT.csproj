@@ -504,9 +504,9 @@
       <recordtableid>983bc5bb-3a8f-4a3d-815d-c02c150701d5</recordtableid>
     </None>
     <None Include="createInfosGenerales3.rxrec">
-      <BoundTo>47f40159-b0e5-443c-be2a-b08d4d3c9493</BoundTo>
       <id>1c031ba7-fd5d-4ad5-a0a2-4cd7d5b7ca75</id>
       <recordtableid>f7578754-fd9b-4f4e-96e2-1566a9934db7</recordtableid>
+      <BoundTo>47f40159-b0e5-443c-be2a-b08d4d3c9493</BoundTo>
     </None>
     <None Include="createInfosGenerales4.rxrec">
       <BoundTo>47f40159-b0e5-443c-be2a-b08d4d3c9493</BoundTo>

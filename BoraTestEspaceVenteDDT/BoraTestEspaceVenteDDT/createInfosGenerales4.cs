@@ -50,6 +50,7 @@ namespace BoraTestEspaceVenteDDT
             itineraire = "{NumPad1}";
             ticketingAgent2 = "75;26";
             cash2 = "{NumPad3},{NumPad7}{NumPad8}";
+            id = "";
         }
 
         /// <summary>
@@ -170,6 +171,18 @@ namespace BoraTestEspaceVenteDDT
             set { _cash2 = value; }
         }
 
+        string _id;
+
+        /// <summary>
+        /// Gets or sets the value of variable id.
+        /// </summary>
+        [TestVariable("f5fac3d8-fb24-40bd-bde4-7694e0afc7a5")]
+        public string id
+        {
+            get { return _id; }
+            set { _id = value; }
+        }
+
         /// <summary>
         /// Gets or sets the value of variable typeDocument2.
         /// </summary>
@@ -242,9 +255,8 @@ namespace BoraTestEspaceVenteDDT
             repo.FrmSglBooking.BtnOk.Click("41;14");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Veuillez sélectionner le Type de Document.') on item 'BoraMessageBox.VeuillezSelectionnerLeTypeDeDocumen'.", repo.BoraMessageBox.VeuillezSelectionnerLeTypeDeDocumenInfo, new RecordItemIndex(4));
-            Validate.AttributeEqual(repo.BoraMessageBox.VeuillezSelectionnerLeTypeDeDocumenInfo, "Text", "Veuillez sélectionner le Type de Document.");
-            Delay.Milliseconds(100);
+            Validate_VeuillezSelectionnerLeTypeDeDocumen(repo.BoraMessageBox.VeuillezSelectionnerLeTypeDeDocumenInfo);
+            Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BoraMessageBox.ButtonOk' at 40;8.", repo.BoraMessageBox.ButtonOkInfo, new RecordItemIndex(5));
             repo.BoraMessageBox.ButtonOk.Click("40;8");
@@ -275,9 +287,8 @@ namespace BoraTestEspaceVenteDDT
             repo.FrmSglBooking.BtnOk.Click("25;9");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Veuillez saisir la Date de Transaction.') on item 'BoraMessageBox.VeuillezSaisirLaDateDeTransaction'.", repo.BoraMessageBox.VeuillezSaisirLaDateDeTransactionInfo, new RecordItemIndex(12));
-            Validate.AttributeEqual(repo.BoraMessageBox.VeuillezSaisirLaDateDeTransactionInfo, "Text", "Veuillez saisir la Date de Transaction.");
-            Delay.Milliseconds(100);
+            Validate_VeuillezSaisirLaDateDeTransaction(repo.BoraMessageBox.VeuillezSaisirLaDateDeTransactionInfo);
+            Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BoraMessageBox.ButtonOk' at 38;9.", repo.BoraMessageBox.ButtonOkInfo, new RecordItemIndex(13));
             repo.BoraMessageBox.ButtonOk.Click("38;9");
@@ -303,176 +314,171 @@ namespace BoraTestEspaceVenteDDT
             repo.FrmSglBooking.BtnOk.Click("46;10");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BoraMessageBox.ButtonOk' at 41;7.", repo.BoraMessageBox.ButtonOkInfo, new RecordItemIndex(19));
+            Validate_VeuillezRenseignerLeNomDuVoyageur(repo.BoraMessageBox.VeuillezRenseignerLeNomDuVoyageurInfo);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BoraMessageBox.ButtonOk' at 41;7.", repo.BoraMessageBox.ButtonOkInfo, new RecordItemIndex(20));
             repo.BoraMessageBox.ButtonOk.Click("41;7");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.ButtonDropDown1' at 5;8.", repo.FrmSglBooking.UltraTabPageControl1.ButtonDropDown1Info, new RecordItemIndex(20));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.ButtonDropDown1' at 5;8.", repo.FrmSglBooking.UltraTabPageControl1.ButtonDropDown1Info, new RecordItemIndex(21));
             repo.FrmSglBooking.UltraTabPageControl1.ButtonDropDown1.Click("5;8");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.Open7' at 7;7.", repo.FrmSglBooking.UltraTabPageControl1.Open7Info, new RecordItemIndex(21));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.Open7' at 7;7.", repo.FrmSglBooking.UltraTabPageControl1.Open7Info, new RecordItemIndex(22));
             repo.FrmSglBooking.UltraTabPageControl1.Open7.Click("7;7");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Bora.ScrollingRegion' at position from variable $nomClient2.", repo.Bora.ScrollingRegionInfo, new RecordItemIndex(22));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Bora.ScrollingRegion' at position from variable $nomClient2.", repo.Bora.ScrollingRegionInfo, new RecordItemIndex(23));
             repo.Bora.ScrollingRegion.Click(nomClient2);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.Open8' at 7;8.", repo.FrmSglBooking.UltraTabPageControl1.Open8Info, new RecordItemIndex(23));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.Open8' at 7;8.", repo.FrmSglBooking.UltraTabPageControl1.Open8Info, new RecordItemIndex(24));
             repo.FrmSglBooking.UltraTabPageControl1.Open8.Click("7;8");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Bora.ScrollingRegion' at position from variable $nomVoyageur.", repo.Bora.ScrollingRegionInfo, new RecordItemIndex(24));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Bora.ScrollingRegion' at position from variable $nomVoyageur.", repo.Bora.ScrollingRegionInfo, new RecordItemIndex(25));
             repo.Bora.ScrollingRegion.Click(nomVoyageur);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmSglBooking.BtnOk' at 16;11.", repo.FrmSglBooking.BtnOkInfo, new RecordItemIndex(25));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmSglBooking.BtnOk' at 16;11.", repo.FrmSglBooking.BtnOkInfo, new RecordItemIndex(26));
             repo.FrmSglBooking.BtnOk.Click("16;11");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Veuillez renseigner la Classe de Réservation.') on item 'BoraMessageBox.VeuillezRenseignerLaClasseDeReserva'.", repo.BoraMessageBox.VeuillezRenseignerLaClasseDeReservaInfo, new RecordItemIndex(26));
-            Validate.AttributeEqual(repo.BoraMessageBox.VeuillezRenseignerLaClasseDeReservaInfo, "Text", "Veuillez renseigner la Classe de Réservation.");
-            Delay.Milliseconds(100);
+            Validate_VeuillezRenseignerLaClasseDeReserva(repo.BoraMessageBox.VeuillezRenseignerLaClasseDeReservaInfo);
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BoraMessageBox.ButtonOk' at 40;9.", repo.BoraMessageBox.ButtonOkInfo, new RecordItemIndex(27));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BoraMessageBox.ButtonOk' at 40;9.", repo.BoraMessageBox.ButtonOkInfo, new RecordItemIndex(28));
             repo.BoraMessageBox.ButtonOk.Click("40;9");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Bora.First' at 71;10.", repo.Bora.FirstInfo, new RecordItemIndex(28));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Bora.First' at 71;10.", repo.Bora.FirstInfo, new RecordItemIndex(29));
             repo.Bora.First.Click("71;10");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmSglBooking.BtnOk' at 32;10.", repo.FrmSglBooking.BtnOkInfo, new RecordItemIndex(29));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmSglBooking.BtnOk' at 32;10.", repo.FrmSglBooking.BtnOkInfo, new RecordItemIndex(30));
             repo.FrmSglBooking.BtnOk.Click("32;10");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Veuille saisir la Date Départ.') on item 'BoraMessageBox.VeuilleSaisirLaDateDepart'.", repo.BoraMessageBox.VeuilleSaisirLaDateDepartInfo, new RecordItemIndex(30));
-            Validate.AttributeEqual(repo.BoraMessageBox.VeuilleSaisirLaDateDepartInfo, "Text", "Veuille saisir la Date Départ.");
-            Delay.Milliseconds(100);
+            Validate_VeuilleSaisirLaDateDepart(repo.BoraMessageBox.VeuilleSaisirLaDateDepartInfo);
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BoraMessageBox.ButtonOk' at 44;12.", repo.BoraMessageBox.ButtonOkInfo, new RecordItemIndex(31));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BoraMessageBox.ButtonOk' at 44;12.", repo.BoraMessageBox.ButtonOkInfo, new RecordItemIndex(32));
             repo.BoraMessageBox.ButtonOk.Click("44;12");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.Open15' at 8;8.", repo.FrmSglBooking.UltraTabPageControl1.Open15Info, new RecordItemIndex(32));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.Open15' at 8;8.", repo.FrmSglBooking.UltraTabPageControl1.Open15Info, new RecordItemIndex(33));
             repo.FrmSglBooking.UltraTabPageControl1.Open15.Click("8;8");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Bora.MonthDropDownWithUIPermissions' at position from variable $depart.", repo.Bora.MonthDropDownWithUIPermissionsInfo, new RecordItemIndex(33));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Bora.MonthDropDownWithUIPermissions' at position from variable $depart.", repo.Bora.MonthDropDownWithUIPermissionsInfo, new RecordItemIndex(34));
             repo.Bora.MonthDropDownWithUIPermissions.Click(depart);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmSglBooking.BtnOk' at 43;13.", repo.FrmSglBooking.BtnOkInfo, new RecordItemIndex(34));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmSglBooking.BtnOk' at 43;13.", repo.FrmSglBooking.BtnOkInfo, new RecordItemIndex(35));
             repo.FrmSglBooking.BtnOk.Click("43;13");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Veuille saisir la Date Retour.') on item 'BoraMessageBox.VeuilleSaisirLaDateRetour'.", repo.BoraMessageBox.VeuilleSaisirLaDateRetourInfo, new RecordItemIndex(35));
-            Validate.AttributeEqual(repo.BoraMessageBox.VeuilleSaisirLaDateRetourInfo, "Text", "Veuille saisir la Date Retour.");
-            Delay.Milliseconds(100);
+            Validate_VeuilleSaisirLaDateRetour(repo.BoraMessageBox.VeuilleSaisirLaDateRetourInfo);
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BoraMessageBox.ButtonOk' at 30;8.", repo.BoraMessageBox.ButtonOkInfo, new RecordItemIndex(36));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BoraMessageBox.ButtonOk' at 30;8.", repo.BoraMessageBox.ButtonOkInfo, new RecordItemIndex(37));
             repo.BoraMessageBox.ButtonOk.Click("30;8");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.Open15' at 6;6.", repo.FrmSglBooking.UltraTabPageControl1.Open15Info, new RecordItemIndex(37));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.Open15' at 6;6.", repo.FrmSglBooking.UltraTabPageControl1.Open15Info, new RecordItemIndex(38));
             repo.FrmSglBooking.UltraTabPageControl1.Open15.Click("6;6");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Bora.MonthDropDownWithUIPermissions' at position from variable $retour.", repo.Bora.MonthDropDownWithUIPermissionsInfo, new RecordItemIndex(38));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Bora.MonthDropDownWithUIPermissions' at position from variable $retour.", repo.Bora.MonthDropDownWithUIPermissionsInfo, new RecordItemIndex(39));
             repo.Bora.MonthDropDownWithUIPermissions.Click(retour);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmSglBooking.BtnOk' at 51;11.", repo.FrmSglBooking.BtnOkInfo, new RecordItemIndex(39));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmSglBooking.BtnOk' at 51;11.", repo.FrmSglBooking.BtnOkInfo, new RecordItemIndex(40));
             repo.FrmSglBooking.BtnOk.Click("51;11");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Veuillez saisir le Numéro du Billet .') on item 'BoraMessageBox.VeuillezSaisirLeNumeroDuBillet'.", repo.BoraMessageBox.VeuillezSaisirLeNumeroDuBilletInfo, new RecordItemIndex(40));
-            Validate.AttributeEqual(repo.BoraMessageBox.VeuillezSaisirLeNumeroDuBilletInfo, "Text", "Veuillez saisir le Numéro du Billet .");
-            Delay.Milliseconds(100);
+            Validate_VeuillezSaisirLeNumeroDuBillet(repo.BoraMessageBox.VeuillezSaisirLeNumeroDuBilletInfo);
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BoraMessageBox.ButtonOk' at 38;7.", repo.BoraMessageBox.ButtonOkInfo, new RecordItemIndex(41));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BoraMessageBox.ButtonOk' at 38;7.", repo.BoraMessageBox.ButtonOkInfo, new RecordItemIndex(42));
             repo.BoraMessageBox.ButtonOk.Click("38;7");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.None1' at 37;10.", repo.FrmSglBooking.UltraTabPageControl1.None1Info, new RecordItemIndex(42));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmSglBooking.UltraTabPageControl1.None1' at 37;10.", repo.FrmSglBooking.UltraTabPageControl1.None1Info, new RecordItemIndex(43));
             repo.FrmSglBooking.UltraTabPageControl1.None1.Click("37;10");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$numeroBillet' with focus on 'FrmSglBooking.UltraTabPageControl1.None1'.", repo.FrmSglBooking.UltraTabPageControl1.None1Info, new RecordItemIndex(43));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$numeroBillet' with focus on 'FrmSglBooking.UltraTabPageControl1.None1'.", repo.FrmSglBooking.UltraTabPageControl1.None1Info, new RecordItemIndex(44));
             repo.FrmSglBooking.UltraTabPageControl1.None1.PressKeys(numeroBillet);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmSglBooking.BtnOk' at 31;13.", repo.FrmSglBooking.BtnOkInfo, new RecordItemIndex(44));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmSglBooking.BtnOk' at 31;13.", repo.FrmSglBooking.BtnOkInfo, new RecordItemIndex(45));
             repo.FrmSglBooking.BtnOk.Click("31;13");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Veuillez saisir l'Itinéraire.') on item 'BoraMessageBox.VeuillezSaisirLItineraire'.", repo.BoraMessageBox.VeuillezSaisirLItineraireInfo, new RecordItemIndex(45));
-            Validate.AttributeEqual(repo.BoraMessageBox.VeuillezSaisirLItineraireInfo, "Text", "Veuillez saisir l'Itinéraire.");
-            Delay.Milliseconds(100);
+            Validate_VeuillezSaisirLItineraire(repo.BoraMessageBox.VeuillezSaisirLItineraireInfo);
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BoraMessageBox.ButtonOk' at 38;10.", repo.BoraMessageBox.ButtonOkInfo, new RecordItemIndex(46));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BoraMessageBox.ButtonOk' at 38;10.", repo.BoraMessageBox.ButtonOkInfo, new RecordItemIndex(47));
             repo.BoraMessageBox.ButtonOk.Click("38;10");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$itineraire' with focus on 'FrmSglBooking'.", repo.FrmSglBooking.SelfInfo, new RecordItemIndex(47));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$itineraire' with focus on 'FrmSglBooking'.", repo.FrmSglBooking.SelfInfo, new RecordItemIndex(48));
             repo.FrmSglBooking.Self.EnsureVisible();
             Keyboard.Press(itineraire);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmSglBooking.BtnOk' at 35;11.", repo.FrmSglBooking.BtnOkInfo, new RecordItemIndex(48));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmSglBooking.BtnOk' at 35;11.", repo.FrmSglBooking.BtnOkInfo, new RecordItemIndex(49));
             repo.FrmSglBooking.BtnOk.Click("35;11");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Veuillez sélectionner la Destination.') on item 'BoraMessageBox.VeuillezSelectionnerLaDestination'.", repo.BoraMessageBox.VeuillezSelectionnerLaDestinationInfo, new RecordItemIndex(49));
-            Validate.AttributeEqual(repo.BoraMessageBox.VeuillezSelectionnerLaDestinationInfo, "Text", "Veuillez sélectionner la Destination.");
-            Delay.Milliseconds(100);
+            Validate_VeuillezSelectionnerLaDestination(repo.BoraMessageBox.VeuillezSelectionnerLaDestinationInfo);
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BoraMessageBox.ButtonOk' at 49;11.", repo.BoraMessageBox.ButtonOkInfo, new RecordItemIndex(50));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BoraMessageBox.ButtonOk' at 49;11.", repo.BoraMessageBox.ButtonOkInfo, new RecordItemIndex(51));
             repo.BoraMessageBox.ButtonOk.Click("49;11");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Bora.Open3' at 7;9.", repo.Bora.Open3Info, new RecordItemIndex(51));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Bora.Open3' at 7;9.", repo.Bora.Open3Info, new RecordItemIndex(52));
             repo.Bora.Open3.Click("7;9");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Bora.ListItemIN' at 84;8.", repo.Bora.ListItemINInfo, new RecordItemIndex(52));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Bora.ListItemIN' at 84;8.", repo.Bora.ListItemINInfo, new RecordItemIndex(53));
             repo.Bora.ListItemIN.Click("84;8");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmSglBooking.BtnOk' at 37;12.", repo.FrmSglBooking.BtnOkInfo, new RecordItemIndex(53));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmSglBooking.BtnOk' at 37;12.", repo.FrmSglBooking.BtnOkInfo, new RecordItemIndex(54));
             repo.FrmSglBooking.BtnOk.Click("37;12");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Veuillez sélectionner le Ticketing Agent.') on item 'BoraMessageBox.VeuillezSelectionnerLeTicketingAgent'.", repo.BoraMessageBox.VeuillezSelectionnerLeTicketingAgentInfo, new RecordItemIndex(54));
-            Validate.AttributeEqual(repo.BoraMessageBox.VeuillezSelectionnerLeTicketingAgentInfo, "Text", "Veuillez sélectionner le Ticketing Agent.");
-            Delay.Milliseconds(100);
+            Validate_VeuillezSelectionnerLeTicketingAgent(repo.BoraMessageBox.VeuillezSelectionnerLeTicketingAgentInfo);
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BoraMessageBox.ButtonOk' at 42;13.", repo.BoraMessageBox.ButtonOkInfo, new RecordItemIndex(55));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BoraMessageBox.ButtonOk' at 42;13.", repo.BoraMessageBox.ButtonOkInfo, new RecordItemIndex(56));
             repo.BoraMessageBox.ButtonOk.Click("42;13");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Bora.ScrollingRegion' at position from variable $ticketingAgent2.", repo.Bora.ScrollingRegionInfo, new RecordItemIndex(56));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Bora.ScrollingRegion' at position from variable $ticketingAgent2.", repo.Bora.ScrollingRegionInfo, new RecordItemIndex(57));
             repo.Bora.ScrollingRegion.Click(ticketingAgent2);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmSglBooking.BtnOk' at 25;11.", repo.FrmSglBooking.BtnOkInfo, new RecordItemIndex(57));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmSglBooking.BtnOk' at 25;11.", repo.FrmSglBooking.BtnOkInfo, new RecordItemIndex(58));
             repo.FrmSglBooking.BtnOk.Click("25;11");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Ajout impossible: le Net à facturer est différent du cumul CASH + CHEQUE + NONREF.') on item 'BoraMessageBox.AjoutImpossibleLeNetAFacturerEst'.", repo.BoraMessageBox.AjoutImpossibleLeNetAFacturerEstInfo, new RecordItemIndex(58));
-            Validate.AttributeEqual(repo.BoraMessageBox.AjoutImpossibleLeNetAFacturerEstInfo, "Text", "Ajout impossible: le Net à facturer est différent du cumul CASH + CHEQUE + NONREF.");
-            Delay.Milliseconds(100);
+            Validate_AjoutImpossibleLeNetAFacturerEst(repo.BoraMessageBox.AjoutImpossibleLeNetAFacturerEstInfo);
+            Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BoraMessageBox.ButtonOk' at 17;6.", repo.BoraMessageBox.ButtonOkInfo, new RecordItemIndex(59));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BoraMessageBox.ButtonOk' at 17;6.", repo.BoraMessageBox.ButtonOkInfo, new RecordItemIndex(60));
             repo.BoraMessageBox.ButtonOk.Click("17;6");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$cash2' with focus on 'FrmSglBooking'.", repo.FrmSglBooking.SelfInfo, new RecordItemIndex(60));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$cash2' with focus on 'FrmSglBooking'.", repo.FrmSglBooking.SelfInfo, new RecordItemIndex(61));
             repo.FrmSglBooking.Self.PressKeys(cash2);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmSglBooking.Fermer' at 22;11.", repo.FrmSglBooking.FermerInfo, new RecordItemIndex(61));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FrmSglBooking.Fermer' at 22;11.", repo.FrmSglBooking.FermerInfo, new RecordItemIndex(62));
             repo.FrmSglBooking.Fermer.Click("22;11");
             Delay.Milliseconds(0);
             

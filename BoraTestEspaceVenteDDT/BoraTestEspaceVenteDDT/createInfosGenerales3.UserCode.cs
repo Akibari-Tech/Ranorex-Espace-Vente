@@ -19,6 +19,7 @@ using Ranorex;
 using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
+using Excel = Microsoft.Office.Interop.Excel;
 
 namespace BoraTestEspaceVenteDDT
 {
@@ -31,6 +32,72 @@ namespace BoraTestEspaceVenteDDT
         private void Init()
         {
             // Your recording specific initialization code goes here.
+        }
+        
+        void writeToExcel(string reponse)
+        {
+        	
+        	Excel.Application myexcelApplication = new Excel.Application();
+            Excel.Workbook myexcelWorkbook = myexcelApplication.Workbooks.Open(System.IO.Directory.GetCurrentDirectory()+@"\Bora Espace Vente Test Case.xlsx");
+
+            Excel.Worksheet myexcelWorksheet = myexcelWorkbook.Worksheets["UC Espace Vente Data"] as
+                Microsoft.Office.Interop.Excel.Worksheet;
+
+            
+            Excel.Range cell=(Excel.Range)myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 117+0];
+            if(reponse==(string)cell.Text){
+            	myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 2+0] = "ok";
+            }else{
+            	myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 2+0] = "not ok";
+            }
+
+            
+            myexcelApplication.ActiveWorkbook.Save();
+
+            myexcelWorkbook.Close();
+            myexcelApplication.Quit();
+            
+        }
+        
+        void writeToExcel2(string reponse)
+        {
+        	
+        	Excel.Application myexcelApplication = new Excel.Application();
+            Excel.Workbook myexcelWorkbook = myexcelApplication.Workbooks.Open(System.IO.Directory.GetCurrentDirectory()+@"\Bora Espace Vente Test Case.xlsx");
+
+            Excel.Worksheet myexcelWorksheet = myexcelWorkbook.Worksheets["UC Espace Vente Data"] as
+                Microsoft.Office.Interop.Excel.Worksheet;
+
+            
+            Excel.Range cell=(Excel.Range)myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 117+1];
+            if(reponse==(string)cell.Text){
+            	myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 2+1] = "ok";
+            }else{
+            	myexcelWorksheet.Cells[Int32.Parse(id.Substring(5))+6, 2+1] = "not ok";
+            }
+
+            
+            myexcelApplication.ActiveWorkbook.Save();
+
+            myexcelWorkbook.Close();
+            myexcelApplication.Quit();
+            
+        }
+
+        public void Validate_VeuillezSelectionnerLeProduit(RepoItemInfo textInfo)
+        {
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Veuillez sélectionner le Produit.') on item 'textInfo'.", textInfo);
+            Validate.AttributeEqual(textInfo, "Text", "Veuillez sélectionner le Produit.");
+            string reponse=repo.BoraMessageBox.VeuillezSelectionnerLeProduit.TextValue;
+            writeToExcel(reponse);
+        }
+
+        public void Validate_VeuillezSelectionnerLeProduit2(RepoItemInfo textInfo)
+        {
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Veuillez sélectionner le Fournisseur.') on item 'textInfo'.", textInfo);
+            Validate.AttributeEqual(textInfo, "Text", "Veuillez sélectionner le Fournisseur.");
+            string reponse=repo.BoraMessageBox.VeuillezSelectionnerLeProduit.TextValue;
+            writeToExcel2(reponse);
         }
 
     }

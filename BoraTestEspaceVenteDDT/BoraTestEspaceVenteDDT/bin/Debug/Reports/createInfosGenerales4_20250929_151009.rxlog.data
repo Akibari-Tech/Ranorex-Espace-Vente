@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.4m"
+		durationms="85780"
+		type="root"
+		rid="18b17c1961045e6d"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Doutat"
+		rxversion="9.3.2.0"
+		host="DESKTOP-Q382A2M"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="fr-FR"
+		dtnlanguage="fr-FR"
+		screenresolution="1440x900"
+		timestamp="29/09/2025 15:10:19"
+		timestampiso="2025-09-29T14:10:19"
+		endtime="29/09/2025 15:11:44"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="createInfosGenerales4">
+		<detail>
+			createInfosGenerales4
+		</detail>
+		<errormessage>
+			Attribute 'Text' of element for item 'BoraTestEspaceVenteDDTRepository.BoraMessageBox.VeuillezSelectionnerLeTypeDeDocumen' does not match the specified value (Failed to find item 'BoraTestEspaceVenteDDTRepository.BoraMessageBox.VeuillezSelectionnerLeTypeDeDocumen'. Please check that your whitelist allows Ranorex to access the process. No element found for path '/form[@controlname='BoraMessageBox']/?/?/text[@accessiblename&gt;'Veuillez s&#233;lectionner le Type']' at step 'text[@accessiblename&gt;'Veuillez s&#233;lectionner le Type']' after 209 attempts within 1m.).
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.934"
+			timeRelativeToTestModuleStartTime="00:12.934"
+			timeWallClock="15:10:32"
+			time="00:12.934"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>dateDeTransaction, nomClient2, nomVoyageur, depart, retour, numeroBillet, itineraire, ticketingAgent2, cash2, typeDocument2, classeResa, destination
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.042"
+			timeRelativeToTestModuleStartTime="00:13.042"
+			timeWallClock="15:10:32"
+			time="00:13.042"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FrmSglBooking.TabPageInfosGenerales' at 54;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='Frm_SglBooking']/element[@controlname='UltraTabControl2']/?/?/tabpage[@accessiblename='&amp;Infos Générales']"
+				itempath="element[@controlname='UltraTabControl2']/?/?/tabpage[@accessiblename='&amp;Infos Générales']"
+				fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.TabPageInfosGenerales"
+				id="282f87c254b44fa8a523ea8f7beb57ef"
+				timeout="60000"
+				codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales4.cs"
+				codeline="229"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.839"
+			timeRelativeToTestModuleStartTime="00:20.839"
+			timeWallClock="15:10:39"
+			time="00:20.839"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FrmSglBooking.BtnOk' at 26;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='Frm_SglBooking']/button[@controlname='Btn_ok']"
+				itempath="button[@controlname='Btn_ok']"
+				fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.BtnOk"
+				id="05a7c2ec9eb6417686350a4e52cd5191"
+				timeout="60000"
+				codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales4.cs"
+				codeline="233"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.075"
+			timeRelativeToTestModuleStartTime="00:22.075"
+			timeWallClock="15:10:41"
+			time="00:22.075"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'BoraMessageBox.ButtonOk' at 24;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='BoraMessageBox']/container[@controlname='UltraGridBagLayoutPanel1']/?/?/button[@accessiblename='Ok']"
+				itempath="container[@controlname='UltraGridBagLayoutPanel1']/?/?/button[@accessiblename='Ok']"
+				fullname="BoraTestEspaceVenteDDTRepository.BoraMessageBox.ButtonOk"
+				id="259986f3ec744d978471cbf021b573c7"
+				timeout="60000"
+				codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales4.cs"
+				codeline="237"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.120"
+			timeRelativeToTestModuleStartTime="00:23.120"
+			timeWallClock="15:10:42"
+			time="00:23.120"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'FrmSglBooking.BtnOk' at 41;14.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='Frm_SglBooking']/button[@controlname='Btn_ok']"
+				itempath="button[@controlname='Btn_ok']"
+				fullname="BoraTestEspaceVenteDDTRepository.FrmSglBooking.BtnOk"
+				id="05a7c2ec9eb6417686350a4e52cd5191"
+				timeout="60000"
+				codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales4.cs"
+				codeline="241"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.757"
+			timeRelativeToTestModuleStartTime="00:24.757"
+			timeWallClock="15:10:43"
+			time="00:24.757"
+			level="Info"
+			category="Validation"
+			errimg="images_createIn_b3059f34\createIn_b3059f34_e222acf8_trace.jpg"
+			errthumb="images_createIn_b3059f34\createIn_b3059f34_e222acf8_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (Text='Veuillez sélectionner le Type de Document.') on item 'BoraMessageBox.VeuillezSelectionnerLeTypeDeDocumen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='BoraMessageBox']/?/?/text[@accessiblename>'Veuillez sélectionner le Type']"
+				itempath="?/?/text[@accessiblename>'Veuillez sélectionner le Type']"
+				fullname="BoraTestEspaceVenteDDTRepository.BoraMessageBox.VeuillezSelectionnerLeTypeDeDocumen"
+				id="c038c0e2d11a46b0a82015288783ff69"
+				timeout="60000"
+				codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales4.cs"
+				codeline="245"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:25.279"
+			timeRelativeToTestModuleStartTime="01:25.279"
+			timeWallClock="15:11:44"
+			time="01:25.279"
+			level="Failure"
+			category="Validation"
+			errimg="images_createIn_b3059f34\createIn_b3059f34_4b30d76a_trace.jpg"
+			errthumb="images_createIn_b3059f34\createIn_b3059f34_4b30d76a_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'BoraTestEspaceVenteDDTRepository.BoraMessageBox.VeuillezSelectionnerLeTypeDeDocumen' does not match the specified value (Failed to find item 'BoraTestEspaceVenteDDTRepository.BoraMessageBox.VeuillezSelectionnerLeTypeDeDocumen'. Please check that your whitelist allows Ranorex to access the process. No element found for path '/form[@controlname='BoraMessageBox']/?/?/text[@accessiblename&gt;'Veuillez s&#233;lectionner le Type']' at step 'text[@accessiblename&gt;'Veuillez s&#233;lectionner le Type']' after 209 attempts within 1m.).
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='BoraMessageBox']/?/?/text[@accessiblename>'Veuillez sélectionner le Type']"
+				itempath="?/?/text[@accessiblename>'Veuillez sélectionner le Type']"
+				fullname="BoraTestEspaceVenteDDTRepository.BoraMessageBox.VeuillezSelectionnerLeTypeDeDocumen"
+				id="c038c0e2d11a46b0a82015288783ff69"
+				timeout="60000"
+				codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales4.cs"
+				codeline="246"
+				failedStep="text[@accessiblename>'Veuillez sélectionner le Type']"
+				bestPathPrefix="/form[@controlname='BoraMessageBox']/?/?"
+				loglvl="Failure"
+				itemindex="4">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:25.293"
+			timeRelativeToTestModuleStartTime="01:25.293"
+			timeWallClock="15:11:44"
+			time="01:25.293"
+			level="Error"
+			category="Module"
+			errimg="images_createIn_b3059f34\createIn_b3059f34_4b30d76a_trace.jpg"
+			errthumb="images_createIn_b3059f34\createIn_b3059f34_4b30d76a_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Text' of element for item 'BoraTestEspaceVenteDDTRepository.BoraMessageBox.VeuillezSelectionnerLeTypeDeDocumen' does not match the specified value (Failed to find item 'BoraTestEspaceVenteDDTRepository.BoraMessageBox.VeuillezSelectionnerLeTypeDeDocumen'. Please check that your whitelist allows Ranorex to access the process. No element found for path '/form[@controlname='BoraMessageBox']/?/?/text[@accessiblename&gt;'Veuillez s&#233;lectionner le Type']' at step 'text[@accessiblename&gt;'Veuillez s&#233;lectionner le Type']' after 209 attempts within 1m.).<br/>Failed to find item 'BoraTestEspaceVenteDDTRepository.BoraMessageBox.VeuillezSelectionnerLeTypeDeDocumen'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/form[@controlname='BoraMessageBox']/?/?/text[@accessiblename&gt;'Veuillez s&#233;lectionner le Type']' at step 'text[@accessiblename&gt;'Veuillez s&#233;lectionner le Type']' after 209 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   à Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   à Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   à Ranorex.Validate.AttributeEqualInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   à Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value, String message, Options options)
+   à Ranorex.Validate.AttributeEqual(RepoItemInfo itemInfo, String name, Object value)
+   à BoraTestEspaceVenteDDT.createInfosGenerales4.Ranorex.Core.Testing.ITestModule.Run() dans c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales4.cs:ligne 246
+   à Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Doutat\Documents\travail\travail 23\Ranorex-Espace-Vente\BoraTestEspaceVenteDDT\BoraTestEspaceVenteDDT\createInfosGenerales4.cs"
+				codeline="246"
+				type="repoitem"
+				path="/form[@controlname='BoraMessageBox']/?/?/text[@accessiblename>'Veuillez sélectionner le Type']"
+				itempath="?/?/text[@accessiblename>'Veuillez sélectionner le Type']"
+				fullname="BoraTestEspaceVenteDDTRepository.BoraMessageBox.VeuillezSelectionnerLeTypeDeDocumen"
+				id="c038c0e2d11a46b0a82015288783ff69"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="4">
+			</metainfo>
+		</item>
+	</activity>
+</report>
